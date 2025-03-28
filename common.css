@@ -1,6 +1,4 @@
-<style>
-  
-/*  font설정 */
+
   
 @font-face {
     font-family: 'Paperlogy-8ExtraBold';
@@ -61,12 +59,15 @@
   font-style: normal;
 }
 :root{
-  --MainBrownLight : #A97D5E;
-  --Primery : #006838;
-  --light-color: #93ab9d;
+
+  --primery : #f17522;
+  --subprimery : #3f3f3f;
+  
+  --light-blue: #dbebf6;
+  --deep-blue : #558ccf;
   --text-color: #1E1E1E;
   --highlight-color: #007bff;
-  --border-radius: 10px;
+
   --basic-text-color : #000
 
 }
@@ -1168,7 +1169,7 @@ body{
 
 	.slick-current .main-info-item  .main-info-txt{margin-top: 60px}
 	.slick-current .main-info-item  .main-info-txt .tit{font-size: 32px;}
-	.slick-current .main-info-item  .main-info-txt .num{font-size: 52px; font-weight: 700; color: #ef8425;}
+	.slick-current .main-info-item  .main-info-txt .num{font-size: 52px; font-weight: 900; color: #ef8425;}
 	.slick-current .main-info-item  .main-info-txt .year{opacity: 1;}
 
 	.slick-current .main-info-item  .main-info-cir > span:nth-child(2) {
@@ -1208,10 +1209,4 @@ body{
 	}
 }
   
-    </style>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
