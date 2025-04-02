@@ -10,3 +10,6 @@ http://www.i-web.kr/green19/
  
  -첫번째 배너 경로 예시 :
   https://juhyun88.github.io/iweb_src/first_banner/border.svg
+
+ -메인 배너 경로 예시 :
+  https://juhyun88.github.io/iweb_src/mainbanner/mainbanner1.jpg
