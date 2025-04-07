@@ -1,17 +1,27 @@
-body{
+body, #headerwarp{
     min-width: 1500px !important;
 }
 #green19_80662{
     display: flex !important;
     justify-content: center !important;
 }
+
     
 #gNavi{
     &.gNavi{
        
         > ul{
             ul{
+             
                 display: block !important;
+                min-width: 150px;
+                transform: translateX(0) !important;
+                height: 300px;
+                background:
+                white;
+                right: 0;
+                width: 100% !important;
+
                 li{
                     display: block !important;
                     font-size: 15px !important;
