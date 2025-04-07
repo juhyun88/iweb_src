@@ -17,6 +17,7 @@ body, #headerwarp {
   background-color: #fff;
   transition: 0.5s;
 }
+#gNavi.gNavi > ul:hover::before,
 #gNavi.gNavi > ul:hover ul {
   height: 300px;
 }

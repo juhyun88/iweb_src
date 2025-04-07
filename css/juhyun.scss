@@ -22,6 +22,7 @@ body, #headerwarp{
                 transition: 0.5s;
             }
             &:hover{
+                &::before,
                 ul{
                     height: 300px;
                 }
