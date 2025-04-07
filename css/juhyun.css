@@ -2,3 +2,24 @@
   display: flex !important;
   justify-content: center !important;
 }
+
+.gNavi > ul > li > a {
+  font-family: "Paperlogy 3 Light";
+}
+
+.gNavi > ul > li > a.active:after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  width: 0;
+  height: 4px;
+  background: #00A2FF;
+  width: 106px;
+}
+
+.gNavi > ul > li > a:hover:after {
+  width: 106px;
+  transition: all 0.3s;
+}
