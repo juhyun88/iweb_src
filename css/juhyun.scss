@@ -11,24 +11,43 @@ body, #headerwarp{
     &.gNavi{
        
         > ul{
+            &:before{
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 0;    
+                width: 100%;
+                height: 0;
+                background-color: #fff;
+                transition: 0.5s;
+            }
+            &:hover{
+                ul{
+                    height: 300px;
+                }
+            }
             ul{
-             
                 display: block !important;
                 min-width: 150px;
                 transform: translateX(0) !important;
-                height: 300px;
-                background:
-                white;
+                height:0;
+                overflow: hidden;
+                transition: 0.5s;             
                 right: 0;
                 width: 100% !important;
+                position: absolute;
+                left: 0;
+                top: 90px;
 
                 li{
                     display: block !important;
                     font-size: 15px !important;
+                    background-color: transparent !important;
                 }
             }
          > li {
             //대메뉴 li
+        
             > a{
                 //대메뉴
               font-family: "Paperlogy 3 Light" !important;
