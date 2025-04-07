@@ -2,12 +2,10 @@
   display: flex !important;
   justify-content: center !important;
 }
-
-.gNavi > ul > li > a {
-  font-family: "Paperlogy 3 Light";
+#green19_80662 #gNavi.gNavi > ul > li > a {
+  font-family: "Paperlogy 3 Light" !important;
 }
-
-.gNavi > ul > li > a.active:after {
+#green19_80662 #gNavi.gNavi > ul > li > a.active:after {
   content: "";
   position: absolute;
   bottom: 1px;
@@ -17,9 +15,4 @@
   height: 4px;
   background: #00A2FF;
   width: 106px;
-}
-
-.gNavi > ul > li > a:hover:after {
-  width: 106px;
-  transition: all 0.3s;
 }
