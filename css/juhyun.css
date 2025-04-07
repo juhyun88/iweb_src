@@ -7,6 +7,13 @@ body {
   justify-content: center !important;
 }
 
+#gNavi.gNavi > ul ul {
+  display: block !important;
+}
+#gNavi.gNavi > ul ul li {
+  display: block !important;
+  font-size: 15px !important;
+}
 #gNavi.gNavi > ul > li > a {
   font-family: "Paperlogy 3 Light" !important;
 }

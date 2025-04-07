@@ -8,7 +8,15 @@ body{
     
 #gNavi{
     &.gNavi{
+       
         > ul{
+            ul{
+                display: block !important;
+                li{
+                    display: block !important;
+                    font-size: 15px !important;
+                }
+            }
          > li {
             //대메뉴 li
             > a{
