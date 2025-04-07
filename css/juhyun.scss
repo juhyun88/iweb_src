@@ -1,6 +1,10 @@
+body{
+    min-width: 1500px !important;
+}
 #green19_80662{
     display: flex !important;
     justify-content: center !important;
+}
     
 #gNavi{
     &.gNavi{
@@ -28,5 +32,4 @@
      }
     }
 
-}
 }

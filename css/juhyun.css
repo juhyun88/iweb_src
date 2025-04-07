@@ -1,11 +1,16 @@
+body {
+  min-width: 1500px !important;
+}
+
 #green19_80662 {
   display: flex !important;
   justify-content: center !important;
 }
-#green19_80662 #gNavi.gNavi > ul > li > a {
+
+#gNavi.gNavi > ul > li > a {
   font-family: "Paperlogy 3 Light" !important;
 }
-#green19_80662 #gNavi.gNavi > ul > li > a.active:after {
+#gNavi.gNavi > ul > li > a.active:after {
   content: "";
   position: absolute;
   bottom: 1px;
