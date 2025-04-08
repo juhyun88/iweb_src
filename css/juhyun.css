@@ -62,3 +62,57 @@ body, #headerwarp {
   background: #00A2FF;
   width: 106px;
 }
+
+ul.image-list_center {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+ul.image-list_center li {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+ul.image-list_center li .text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+}
+
+.image_center_item1 {
+  background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon1.svg") center/cover no-repeat;
+}
+
+.image_center_item2 {
+  background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon2.svg") center/cover no-repeat;
+}
+
+.image_center_item3 {
+  background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon3.svg") center/cover no-repeat;
+}
+
+.image_center_item4 {
+  background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon4.svg") center/cover no-repeat;
+}
+
+.image_center_item5 {
+  background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon5.svg") center/cover no-repeat;
+}
+
+.image_center_item6 {
+  background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon6.svg") center/cover no-repeat;
+}
