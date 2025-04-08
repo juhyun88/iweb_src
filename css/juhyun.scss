@@ -163,6 +163,7 @@ body, #headerwarp{
       ul.image-list_center{
         li{
             display: flex;
+            flex-direction: column;
             width: 101.224px;
             padding: 24.433px 26.178px;
             justify-content: center;
@@ -176,27 +177,23 @@ body, #headerwarp{
                 }
             }
             .img{
-                width: 46.524px;
-                height: 49.847px;
+                width: 50px;
+                height: 50px;
                 flex-shrink: 0;
-                background-position: center;
-                background-size: cover;
+                background-position: center;            
                 background-repeat: no-repeat;
-
+                background-color: white;
+                border-radius: 50%;
+                padding: 20px;
                 }
-            .text{
-                display: flex;
-                width: 164.343px;
-                justify-content: center;
-                align-items: center;
-                gap: 7.272px;
+            .text{              
+              white-space: nowrap;             
                 span{
                     color: var(--Color-3, #558CCF);
                     text-align: center;
-                    font-family: Paperlogy;
-                    font-size: 23.27px;
-                    font-style: normal;
-                    font-weight: 500;
+                    font-family: "Paperlogy 3 Light" !important;
+                    font-size: 18px;
+                    font-style: normal;                  
                     line-height: normal;
                     }
                 }
@@ -213,25 +210,6 @@ body, #headerwarp{
 
 
   
-
-    
-//    li.image_center_item1 .img{
-//     background:url("https://juhyun88.github.io/iweb_src/IconandQuick/icon1.svg") center/cover no-repeat}
-    
-//    li.image_center_item2 .img{
-//     background:url("https://juhyun88.github.io/iweb_src/IconandQuick/icon2.svg") center/cover no-repeat}
-    
-//    li.image_center_item3 .img{
-//     background:url("https://juhyun88.github.io/iweb_src/IconandQuick/icon3.svg") center/cover no-repeat}
-    
-//    li.image_center_item4 .img{
-//     background:url("https://juhyun88.github.io/iweb_src/IconandQuick/icon4.svg") center/cover no-repeat}
-    
-//    li.image_center_item5 .img{
-//     background:url("https://juhyun88.github.io/iweb_src/IconandQuick/icon5.svg") center/cover no-repeat}
-    
-//    li.image_center_item6 .img{
-//     background:url("https://juhyun88.github.io/iweb_src/IconandQuick/icon6.svg") center/cover no-repeat}
 
 
 
