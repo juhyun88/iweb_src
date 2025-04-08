@@ -38,7 +38,7 @@ body, #headerwarp{
             }
             ul{
                 display: block !important;
-                min-width: 150px;
+                min-width: 115px;
                 transform: translateX(0) !important;
                 height:0;
                 overflow: hidden;
@@ -53,6 +53,7 @@ body, #headerwarp{
                     display: block !important;
                     font-size: 15px !important;
                     background-color: transparent !important;
+                    font-family: "Paperlogy 3 Light";
                 }
             }
          > li {
@@ -214,12 +215,11 @@ body, #headerwarp{
         position: fixed;
         top: 0;
         right: 0;
-        width: 77px;
-        height: 100vh;
+        width: 70px;
+        bottom: 0;
         background-color: white;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
         z-index: 1000;
 
@@ -227,30 +227,33 @@ body, #headerwarp{
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 10px;
+            background-color: var(--Main, #F17522);
+            width: 100%;
 
             .quick-img {
                 display: flex;
                 height: 210px;
-                padding: 29px 30px;
+                padding: 0 0;
                 flex-direction: column;
                 align-items: center;
                 gap: 35px;
-                background-color: var(--Main, #F17522);
+                justify-content: center;
             }
 
             .quick-text {
                 color: #FFF;
                 text-align: center;
-                font-family: "Paperlogy 3 Light";
+                font-family: "Paperlogy 7 Bold";
                 font-size: 16px;
                 align-self: stretch;
+                transform: rotate(90deg);
             }
         }
 
         .quick-bottom {
             display: flex;
             flex-direction: column;
+            justify-content: end;
             gap: 15px;
 
             .quick-btn {
