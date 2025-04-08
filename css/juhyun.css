@@ -270,3 +270,16 @@ body, #headerwarp {
   transform: scale(1.1);
   transition: transform 0.2s;
 }
+
+.firstbanner-section {
+  height: 50vh;
+  width: 100%;
+  background: url("https://juhyun88.github.io/iweb_src/first_banner/Lbg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
