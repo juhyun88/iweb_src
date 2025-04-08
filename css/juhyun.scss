@@ -223,8 +223,8 @@ body, #headerwarp{
         align-items: center;
         z-index: 1000;
 
-        .quick-top {
-            &.num1 {
+       
+            &.quick-top_num1 {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -251,7 +251,7 @@ body, #headerwarp{
                 }
             }
 
-            &.num2 {
+            &.quick-top_num1 {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -278,7 +278,7 @@ body, #headerwarp{
                 }
             }
         }
-    }
+    
         .quick-bottom {
             display: flex;
             flex-direction: column;

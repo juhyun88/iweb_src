@@ -201,14 +201,14 @@ body, #headerwarp {
   align-items: center;
   z-index: 1000;
 }
-#green19_82309 .quick-menu .quick-top.num1 {
+#green19_82309 .quick-menu.quick-top_num1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--Main, #F17522);
   width: 100%;
 }
-#green19_82309 .quick-menu .quick-top.num1 .quick-img {
+#green19_82309 .quick-menu.quick-top_num1 .quick-img {
   display: flex;
   height: 210px;
   padding: 0;
@@ -217,7 +217,7 @@ body, #headerwarp {
   gap: 35px;
   justify-content: center;
 }
-#green19_82309 .quick-menu .quick-top.num1 .quick-text {
+#green19_82309 .quick-menu.quick-top_num1 .quick-text {
   color: #FFF;
   text-align: center;
   font-family: "Paperlogy 7 Bold";
@@ -225,14 +225,14 @@ body, #headerwarp {
   align-self: stretch;
   transform: rotate(90deg);
 }
-#green19_82309 .quick-menu .quick-top.num2 {
+#green19_82309 .quick-menu.quick-top_num1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: var(--Color-2, #DBEBF6);
   width: 100%;
 }
-#green19_82309 .quick-menu .quick-top.num2 .quick-img {
+#green19_82309 .quick-menu.quick-top_num1 .quick-img {
   display: flex;
   height: 210px;
   padding: 0;
@@ -241,7 +241,7 @@ body, #headerwarp {
   gap: 35px;
   justify-content: center;
 }
-#green19_82309 .quick-menu .quick-top.num2 .quick-text {
+#green19_82309 .quick-menu.quick-top_num1 .quick-text {
   color: #000000;
   text-align: center;
   font-family: "Paperlogy 7 Bold";
