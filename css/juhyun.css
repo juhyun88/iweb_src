@@ -181,52 +181,64 @@ body, #headerwarp {
   line-height: normal;
 }
 
-.quick-menu {
+#green19_82309 {
+  width: 77px !important;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+#green19_82309 .quick-menu {
   position: fixed;
   top: 0;
   right: 0;
   width: 77px;
   height: 100vh;
-  background-color: #f5f5f5;
-  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
   z-index: 1000;
 }
-.quick-menu .quick-top {
+#green19_82309 .quick-menu .quick-top_num1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-.quick-menu .quick-top .quick-img img {
-  width: 40px;
-  height: 40px;
+#green19_82309 .quick-menu .quick-top_num1 .quick-img {
+  display: flex;
+  height: 210px;
+  padding: 29px 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  background-color: var(--Main, #F17522);
 }
-.quick-menu .quick-top .quick-text {
-  font-size: 12px;
+#green19_82309 .quick-menu .quick-top_num1 .quick-text {
+  color: #FFF;
   text-align: center;
-  color: #333;
+  font-family: "Paperlogy 3 Light";
+  font-size: 16px;
+  align-self: stretch;
 }
-.quick-menu .quick-bottom {
+#green19_82309 .quick-menu .quick-bottom {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.quick-menu .quick-bottom .quick-btn {
+#green19_82309 .quick-menu .quick-bottom .quick-btn {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
 }
-.quick-menu .quick-bottom .quick-btn img {
+#green19_82309 .quick-menu .quick-bottom .quick-btn img {
   width: 30px;
   height: 30px;
 }
-.quick-menu .quick-bottom .quick-btn:hover img {
+#green19_82309 .quick-menu .quick-bottom .quick-btn:hover img {
   transform: scale(1.1);
   transition: transform 0.2s;
 }
