@@ -180,3 +180,53 @@ body, #headerwarp {
   font-style: normal;
   line-height: normal;
 }
+
+.quick-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 77px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  z-index: 1000;
+}
+.quick-menu .quick-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.quick-menu .quick-top .quick-img img {
+  width: 40px;
+  height: 40px;
+}
+.quick-menu .quick-top .quick-text {
+  font-size: 12px;
+  text-align: center;
+  color: #333;
+}
+.quick-menu .quick-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.quick-menu .quick-bottom .quick-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.quick-menu .quick-bottom .quick-btn img {
+  width: 30px;
+  height: 30px;
+}
+.quick-menu .quick-bottom .quick-btn:hover img {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
