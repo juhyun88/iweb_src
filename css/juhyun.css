@@ -201,23 +201,23 @@ body, #headerwarp {
   align-items: center;
   z-index: 1000;
 }
-#green19_82309 .quick-menu .quick-top_num1 {
+#green19_82309 .quick-menu .quick-top.num1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--Main, #F17522);
   width: 100%;
 }
-#green19_82309 .quick-menu .quick-top_num1 .quick-img {
+#green19_82309 .quick-menu .quick-top.num1 .quick-img {
   display: flex;
   height: 210px;
-  padding: 0 0;
+  padding: 0;
   flex-direction: column;
   align-items: center;
   gap: 35px;
   justify-content: center;
 }
-#green19_82309 .quick-menu .quick-top_num1 .quick-text {
+#green19_82309 .quick-menu .quick-top.num1 .quick-text {
   color: #FFF;
   text-align: center;
   font-family: "Paperlogy 7 Bold";
@@ -225,23 +225,48 @@ body, #headerwarp {
   align-self: stretch;
   transform: rotate(90deg);
 }
-#green19_82309 .quick-menu .quick-bottom {
+#green19_82309 .quick-menu .quick-top.num2 {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  align-items: center;
+  background: var(--Color-2, #DBEBF6);
+  width: 100%;
+}
+#green19_82309 .quick-menu .quick-top.num2 .quick-img {
+  display: flex;
+  height: 210px;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  justify-content: center;
+}
+#green19_82309 .quick-menu .quick-top.num2 .quick-text {
+  color: #000000;
+  text-align: center;
+  font-family: "Paperlogy 7 Bold";
+  font-size: 16px;
+  align-self: stretch;
+  transform: rotate(90deg);
+}
+#green19_82309 .quick-bottom {
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  position: absolute;
   gap: 15px;
 }
-#green19_82309 .quick-menu .quick-bottom .quick-btn {
+#green19_82309 .quick-bottom .quick-btn {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
 }
-#green19_82309 .quick-menu .quick-bottom .quick-btn img {
+#green19_82309 .quick-bottom .quick-btn img {
   width: 30px;
   height: 30px;
 }
-#green19_82309 .quick-menu .quick-bottom .quick-btn:hover img {
+#green19_82309 .quick-bottom .quick-btn:hover img {
   transform: scale(1.1);
   transition: transform 0.2s;
 }
