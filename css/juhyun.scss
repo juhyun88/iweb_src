@@ -102,34 +102,39 @@ body, #headerwarp{
         color: white;
         font-weight: bold;
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
-  
+        .img {
+            width: 100px;
+            height: 150px; // 원하는 크기
+            background-size: cover;
+            background-position: center;
+          }
         .text {
           background-color: rgba(0, 0, 0, 0.5);
           padding: 10px;
           text-align: center;
         }
   
-        &.image_center_item1 {
+        &.image_center_item1 .img {
           background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon1.svg") center/cover no-repeat;
         }
   
-        &.image_center_item2 {
+        &.image_center_item2 .img {
           background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon2.svg") center/cover no-repeat;
         }
   
-        &.image_center_item3 {
+        &.image_center_item3 .img {
           background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon3.svg") center/cover no-repeat;
         }
   
-        &.image_center_item4 {
+        &.image_center_item4 .img {
           background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon4.svg") center/cover no-repeat;
         }
   
-        &.image_center_item5 {
+        &.image_center_item5 .img {
           background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon5.svg") center/cover no-repeat;
         }
   
-        &.image_center_item6 {
+        &.image_center_item6 .img {
           background: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon6.svg") center/cover no-repeat;
         }
       }
