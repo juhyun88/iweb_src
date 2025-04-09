@@ -490,33 +490,15 @@ body, #headerwarp{
     height: 550px; /* Increased size */
 }
 
-.slick-current .doctor-item.item01 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/active/1.svg") center/cover no-repeat;
+@for $i from 1 through 7 {
+    .slick-current .doctor-item.item#{$i} .doctor-cir .img {
+        background-image: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
-.slick-current .doctor-item.item02 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/active/2.svg") center/cover no-repeat;
-}
-
-.slick-current .doctor-item.item03 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/active/3.svg") center/cover no-repeat;
-}
-
-.slick-current .doctor-item.item04 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/active/4.svg") center/cover no-repeat;
-}
-
-.slick-current .doctor-item.item05 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/active/5.svg") center/cover no-repeat;
-}
-
-.slick-current .doctor-item.item06 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/active/6.svg") center/cover no-repeat;
-}
-
-.slick-current .doctor-item.item07 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/active/7.svg") center/cover no-repeat;
-}
 
 .slick-current .doctor-item .doctor-cir > span:nth-child(2) {
     -webkit-animation-delay: 0.3s;
