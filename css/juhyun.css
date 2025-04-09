@@ -316,6 +316,147 @@ body, #headerwarp {
   display: none !important;
 }
 
+#green19_78758 {
+  padding-top: 25px;
+  height: 1000px;
+  background-color: #FFF;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.doctor-wrapper {
+  position: relative;
+  margin-top: 135px;
+}
+
+.doctor-wrapper:before {
+  position: absolute;
+  top: 67px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.doctor-area {
+  padding: 0 5.6%;
+}
+
+.doctor-list-pc {
+  display: block;
+}
+
+.doctor-list-m {
+  display: none;
+}
+
+.doctor-list {
+  margin: 0 -10px;
+}
+
+.doctor-list .slick-list {
+  overflow: visible;
+}
+
+.doctor-item {
+  float: left;
+  width: calc(20% - 20px);
+  margin: 0 10px;
+}
+
+.doctor-cir {
+  position: relative;
+  margin: 0 auto;
+  width: 134px;
+  height: 134px;
+}
+
+.doctor-cir .inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.5);
+  border: 0px solid #fe5f03;
+  border-radius: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.doctor-cir .img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 49px;
+  height: 49px;
+}
+
+.item01 .doctor-cir .img {
+  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/1.svg") center/cover no-repeat;
+}
+
+.item02 .doctor-cir .img {
+  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/2.svg") center/cover no-repeat;
+}
+
+.item03 .doctor-cir .img {
+  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/3.svg") center/cover no-repeat;
+}
+
+.item04 .doctor-cir .img {
+  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/4.svg") center/cover no-repeat;
+}
+
+.item05 .doctor-cir .img {
+  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/5.svg") center/cover no-repeat;
+}
+
+.item06 .doctor-cir .img {
+  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/6.svg") center/cover no-repeat;
+}
+
+.doctor-txt {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.doctor-txt .tit {
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #3a3a3a;
+}
+
+.doctor-txt .num {
+  margin-top: 15px;
+  font-size: 42px;
+  letter-spacing: -0.25px;
+  color: #3a3a3a;
+}
+
+.doctor-txt .year {
+  margin-top: 10px;
+  font-size: 16.5px;
+  line-height: 1.3;
+  color: #3a3a3a;
+  opacity: 0;
+}
+
+.doctor-cir,
+.doctor-cir .inner,
+.doctor-cir .img,
+.doctor-txt,
+.doctor-txt .tit,
+.doctor-txt .num,
+.doctor-txt .year {
+  transition: all 0.4s;
+}
+
 .slick-current .doctor-item .doctor-cir {
   margin-top: -53px;
   width: 226px;
