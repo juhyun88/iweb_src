@@ -540,16 +540,16 @@ button.slick-prev, button.slick-next {
     height: 413px;;
     .boardHead{
         border-bottom: 1px solid var(--Main, #F17522) !important;
-    
+        padding-top: 26px !important;
     }
     .boardHead-Title{
-        font-family: "Paperlogy 7 Bold" !important;
-        font-size: 42px !important;
+        font-family: "Paperlogy 5 Medium" !important;
+        font-size: 35px !important;
     }
     .boardWrap{
         height: 86px !important;
         line-height: 5.5!important;
-
+       
     }
 } 
 
@@ -558,10 +558,12 @@ button.slick-prev, button.slick-next {
     align-items: center;
     gap: 10px; // 이미지와 텍스트 간격 조정
     a {
+        display: flex;
+        align-items: center; // 이미지와 텍스트를 수직으로 정렬
         img {
             content: url("https://juhyun88.github.io/iweb_src/first_banner/btn.svg") !important;
-            width: 10px; /* Adjust the width */
-            height: 20px; /* Adjust the height */
+            width: 30px; /* Adjust the width */
+            height: 30px; /* Adjust the height */
         }
 
         // 텍스트 추가
@@ -571,6 +573,8 @@ button.slick-prev, button.slick-next {
             font-size: 18px;
             color: var(--Color-5, #3F3F3F);
             margin-left: 5px; // 간격 조정
+            position: relative;
+            top: -3px; // 텍스트를 이미지 라인에 맞게 위로 올림
         }
     }
 }

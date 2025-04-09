@@ -535,10 +535,11 @@ button.slick-prev, button.slick-next {
 }
 #green19_82116 .boardHead {
   border-bottom: 1px solid var(--Main, #F17522) !important;
+  padding-top: 26px !important;
 }
 #green19_82116 .boardHead-Title {
-  font-family: "Paperlogy 7 Bold" !important;
-  font-size: 42px !important;
+  font-family: "Paperlogy 5 Medium" !important;
+  font-size: 35px !important;
 }
 #green19_82116 .boardWrap {
   height: 86px !important;
@@ -550,10 +551,14 @@ button.slick-prev, button.slick-next {
   align-items: center;
   gap: 10px;
 }
+.boardHead-More a {
+  display: flex;
+  align-items: center;
+}
 .boardHead-More a img {
   content: url("https://juhyun88.github.io/iweb_src/first_banner/btn.svg") !important;
-  width: 10px; /* Adjust the width */
-  height: 20px; /* Adjust the height */
+  width: 30px; /* Adjust the width */
+  height: 30px; /* Adjust the height */
 }
 .boardHead-More a::before {
   content: "자세히보기";
@@ -561,4 +566,6 @@ button.slick-prev, button.slick-next {
   font-size: 18px;
   color: var(--Color-5, #3F3F3F);
   margin-left: 5px;
+  position: relative;
+  top: -3px;
 }
