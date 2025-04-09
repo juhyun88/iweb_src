@@ -363,7 +363,7 @@ body, #headerwarp {
 .doctor-item {
   float: left;
   width: calc(20% - 20px);
-  margin: 0 10px;
+  margin: 0 -55px;
 }
 
 .doctor-cir {
@@ -433,10 +433,10 @@ body, #headerwarp {
 
 .slick-current .doctor-item .doctor-cir {
   margin-top: -53px;
-  width: 550px; /* 수정 */
+  width: 470px; /* 수정 */
   height: 550px; /* 수정*/
   z-index: 2;
-  margin-left: -20px;
+  margin-left: -70px;
 }
 
 .slick-current .doctor-item .doctor-cir .inner {
@@ -456,7 +456,7 @@ body, #headerwarp {
 }
 
 .doctor-item .doctor-cir {
-  width: 450px; /* 기본 이미지 크기 */
+  width: 400px; /* 기본 이미지 크기 */
   height: 450px; /* 기본 이미지 크기 */
   transition: all 0.4s ease-in-out; /* 부드러운 전환 효과 */
   margin: 0 15px;
