@@ -474,22 +474,30 @@ body, #headerwarp{
 // 의사들 슬랙슬라이드 //
 .slick-current .doctor-item .doctor-cir {
     margin-top: -53px;
-    width: 500px; /* Increased size */
-    height: 500px; /* Increased size */
+    width: 600px; /* 수정 */
+    height: 600px; /* 수정*/
+    z-index: 2; 
 }
 
 .slick-current .doctor-item .doctor-cir .inner {
     border-width: 0;
     box-shadow: none;
-
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primery)', endColorstr='#f28b1e', GradientType=1);
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-    width: 500px; /* Increased size */
-    height: 500px; /* Increased size */
+    width: 600px; /* 수정*/
+    height: 600px; /* 수정*/
+    z-index: 1;/* 수정*/
 }
-
+.slick-prev, .slick-next {
+    z-index: 3; /* 슬라이드 네비게이션 버튼이 이미지보다 앞에 보이도록 설정 */
+}
+.doctor-item .doctor-cir {
+    width: 500px; /* 기본 이미지 크기 */
+    height: 500px; /* 기본 이미지 크기 */
+    transition: all 0.4s ease-in-out; /* 부드러운 전환 효과 */
+}
 @for $i from 1 through 7 {
     .slick-current .doctor-item.item#{$i} .doctor-cir .img {
         background-image: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg");
