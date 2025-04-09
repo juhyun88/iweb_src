@@ -368,8 +368,8 @@ body, #headerwarp {
 .doctor-cir {
   position: relative;
   margin: 0 auto;
-  width: 704px;
-  height: 483px;
+  width: 800px; /* Increased size */
+  height: 550px; /* Increased size */
 }
 
 .doctor-cir .inner {
@@ -388,8 +388,8 @@ body, #headerwarp {
   bottom: 0;
   left: 0;
   margin: auto;
-  width: 528px;
-  height: 363px;
+  width: 600px; /* Increased size */
+  height: 400px; /* Increased size */
 }
 
 .item01 .doctor-cir .img {
@@ -432,19 +432,19 @@ body, #headerwarp {
 
 .slick-current .doctor-item .doctor-cir {
   margin-top: -53px;
-  width: 226px;
-  height: 226px;
+  width: 300px; /* Increased size */
+  height: 300px; /* Increased size */
 }
 
 .slick-current .doctor-item .doctor-cir .inner {
   border-width: 0;
   box-shadow: none;
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="var(--primery)", endColorstr="#f28b1e",GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="var(--primery)", endColorstr="#f28b1e", GradientType=1);
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-  width: 704px;
-  height: 483px;
+  width: 800px; /* Increased size */
+  height: 550px; /* Increased size */
 }
 
 .slick-current .doctor-item.item01 .doctor-cir .img {
