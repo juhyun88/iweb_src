@@ -396,27 +396,31 @@ body, #headerwarp {
 }
 
 .item01 .doctor-cir .img {
-  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/1.svg") center/cover no-repeat;
+  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor1.jpg") center/cover no-repeat;
 }
 
 .item02 .doctor-cir .img {
-  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/2.svg") center/cover no-repeat;
+  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor2.jpg") center/cover no-repeat;
 }
 
 .item03 .doctor-cir .img {
-  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/3.svg") center/cover no-repeat;
+  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor3.jpg") center/cover no-repeat;
 }
 
 .item04 .doctor-cir .img {
-  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/4.svg") center/cover no-repeat;
+  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor4.jpg") center/cover no-repeat;
 }
 
 .item05 .doctor-cir .img {
-  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/5.svg") center/cover no-repeat;
+  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor5.jpg") center/cover no-repeat;
 }
 
 .item06 .doctor-cir .img {
-  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/6.svg") center/cover no-repeat;
+  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor6.jpg") center/cover no-repeat;
+}
+
+.item07 .doctor-cir .img {
+  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor7.jpg") center/cover no-repeat;
 }
 
 .doctor-txt {
@@ -498,6 +502,10 @@ body, #headerwarp {
 
 .slick-current .doctor-item.item06 .doctor-cir .img {
   background: url("https://juhyun88.github.io/iweb_src/clinical_trial/on/6.svg") center/cover no-repeat;
+}
+
+.slick-current .doctor-item.item07 .doctor-cir .img {
+  background: url("https://juhyun88.github.io/iweb_src/clinical_trial/on/7.svg") center/cover no-repeat;
 }
 
 .slick-current .doctor-item .doctor-cir > span:nth-child(2) {
