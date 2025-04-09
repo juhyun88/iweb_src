@@ -535,7 +535,7 @@ button.slick-prev, button.slick-next {
 	}
 }
 
-#green19_82116 
+
 #green19_82116 {
     height: 413px;;
     .boardHead{
@@ -549,7 +549,7 @@ button.slick-prev, button.slick-next {
     .boardWrap{
         height: 86px !important;
         line-height: 5.5!important;
-        
+
     }
 } 
 
@@ -559,11 +559,13 @@ button.slick-prev, button.slick-next {
     gap: 10px; // 이미지와 텍스트 간격 조정
     a {
         img {
-            content: url("https://juhyun88.github.io/iweb_src/first_banner/btn.svg") !important; 
+            content: url("https://juhyun88.github.io/iweb_src/first_banner/btn.svg") !important;
+            width: 10px; /* Adjust the width */
+            height: 20px; /* Adjust the height */
         }
 
         // 텍스트 추가
-        &::after {
+        &::before {
             content: "자세히보기"; // 추가할 텍스트
             font-family: "Noto Sans KR";
             font-size: 18px;
