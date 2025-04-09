@@ -405,7 +405,7 @@ body, #headerwarp {
 }
 
 .item04 .doctor-cir .img {
-  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor4.jpg") center/cover no-repeat;
+  background: url("https://juhyun88.github.io/iweb_src/doctor/doctor4.png") center/cover no-repeat;
 }
 
 .item05 .doctor-cir .img {
@@ -432,8 +432,8 @@ body, #headerwarp {
 
 .slick-current .doctor-item .doctor-cir {
   margin-top: -53px;
-  width: 300px; /* Increased size */
-  height: 300px; /* Increased size */
+  width: 700px; /* Increased size */
+  height: 500px; /* Increased size */
 }
 
 .slick-current .doctor-item .doctor-cir .inner {
@@ -443,8 +443,8 @@ body, #headerwarp {
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-  width: 800px; /* Increased size */
-  height: 550px; /* Increased size */
+  width: 250px; /* Increased size */
+  height: 350px; /* Increased size */
 }
 
 .slick-current .doctor-item.item1 .doctor-cir .img {
