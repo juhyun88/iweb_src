@@ -28,7 +28,7 @@ $(function() {
                     autoplay: true,
                     speed: 1000,
                     infinite: true,
-                    autoplaySpeed: 10000,
+                    autoplaySpeed: 3000,
                     easing: 'easeInOutQuint',
                     pauseOnHover: false,
                     centerMode: true,
