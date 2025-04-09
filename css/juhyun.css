@@ -315,7 +315,7 @@ body, #headerwarp {
 #green19_78758 {
   padding-top: 25px;
   height: 1000px;
-  background-color: #FFF;
+  background-color: #DBEBF6;
   background-size: cover;
   box-sizing: border-box;
 }
@@ -446,9 +446,9 @@ body, #headerwarp {
   z-index: 1; /* 수정*/
 }
 
-.slick-prev, .slick-next {
+button.slick-prev, button.slick-next {
   z-index: 3; /* 슬라이드 네비게이션 버튼이 이미지보다 앞에 보이도록 설정 */
-  color: #F17522; /* 화살표 색상 설정 */
+  color: #F17522 !important; /* 화살표 색상 설정, !important 추가 */
 }
 
 .doctor-item .doctor-cir {
@@ -529,4 +529,34 @@ body, #headerwarp {
     transform: scale(1.4);
     opacity: 0;
   }
+}
+#green19_82116 #green19_82116 {
+  height: 413px;
+}
+#green19_82116 #green19_82116 .boardHead {
+  border-bottom: 1px solid var(--Main, #F17522) !important;
+}
+#green19_82116 #green19_82116 .boardHead-Title {
+  font-family: "Paperlogy 7 Bold" !important;
+  font-size: 42px !important;
+}
+#green19_82116 #green19_82116 .boardWrap {
+  height: 86px !important;
+  line-height: 5.5 !important;
+}
+
+.boardHead-More {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.boardHead-More a img {
+  content: url("https://juhyun88.github.io/iweb_src/first_banner/btn.svg") !important;
+}
+.boardHead-More a::after {
+  content: "자세히보기";
+  font-family: "Noto Sans KR";
+  font-size: 18px;
+  color: var(--Color-5, #3F3F3F);
+  margin-left: 5px;
 }
