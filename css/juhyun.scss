@@ -487,12 +487,13 @@ body, #headerwarp{
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-    width: 550px; /* 수정*/
+    width: 470px; /* 수정*/
     height: 550px; /* 수정*/
     z-index: 1;/* 수정*/
 }
 .slick-prev, .slick-next {
     z-index: 3; /* 슬라이드 네비게이션 버튼이 이미지보다 앞에 보이도록 설정 */
+    color: #F17522; /* 화살표 색상 설정 */
 }
 
 .doctor-item .doctor-cir {
