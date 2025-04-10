@@ -585,15 +585,24 @@ button.slick-prev, button.slick-next {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background: #F9F1DE;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_contanier {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 592px;
 }
 #green19_82324 .firstbanner-rightsection .rightsection {
   align-items: center;
   justify-content: space-between;
   width: 740px;
+  padding-bottom: 32px;
 }
 #green19_82324 .firstbanner-rightsection .rightsection span {
   color: #000;
-  font-family: "Paperlogy 4 Regular";
+  font-family: "Paperlogy 5 Medium" !important;
   font-size: 35px;
   font-style: normal;
   line-height: normal;
@@ -607,6 +616,11 @@ button.slick-prev, button.slick-next {
   gap: 10px;
   border-radius: 36px;
   background: var(--Main, #F17522);
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-family: Paperlogy;
+  font-family: "Paperlogy 3 Light";
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img {
   display: flex !important;
@@ -638,4 +652,11 @@ button.slick-prev, button.slick-next {
 }
 #green19_82324 .firstbanner-rightsection .slick-slide .slick-active {
   width: auto !important;
+}
+#green19_82324 .firstbanner-rightsection button.slick-prev, #green19_82324 .firstbanner-rightsection button.slick-next {
+  z-index: 3; /* 슬라이드 네비게이션 버튼이 이미지보다 앞에 보이도록 설정 */
+  color: #F17522 !important; /* 화살표 색상 설정, !important 추가 */
+}
+#green19_82324 .firstbanner-rightsection .slick-arrow::before {
+  background-color: #F17522 !important;
 }
