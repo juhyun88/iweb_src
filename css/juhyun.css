@@ -587,9 +587,26 @@ button.slick-prev, button.slick-next {
   align-items: center;
 }
 #green19_82324 .firstbanner-rightsection .rightsection {
-  display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 740px;
+}
+#green19_82324 .firstbanner-rightsection .rightsection span {
+  color: #000;
+  font-family: "Paperlogy 4 Regular";
+  font-size: 35px;
+  font-style: normal;
+  line-height: normal;
+}
+#green19_82324 .firstbanner-rightsection .rightsection button {
+  display: flex;
+  width: 107px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 36px;
+  background: var(--Main, #F17522);
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img {
   display: flex !important;
@@ -610,7 +627,6 @@ button.slick-prev, button.slick-next {
   height: 287px !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-list {
-  display: flex !important;
   margin: 0;
   padding: 0;
   width: 750px !important;

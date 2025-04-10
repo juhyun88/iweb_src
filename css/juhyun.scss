@@ -597,9 +597,28 @@ button.slick-prev, button.slick-next {
         align-items: center;
 
         .rightsection {
-            display: flex;
             align-items: center;
             justify-content: space-between;
+            width: 740px; // 글자 사이즈 넓이
+            
+            span{
+                color: #000;
+                font-family: "Paperlogy 4 Regular";
+                font-size: 35px;
+                font-style: normal;
+                line-height: normal;
+            }
+            button{
+                display: flex;
+                width: 107px;
+                padding: 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 36px;
+                background: var(--Main, #F17522);
+            }
+          
         }
         .rightsection_img{
             display: flex !important;
@@ -620,7 +639,6 @@ button.slick-prev, button.slick-next {
             height: 287px !important;
         }
         .slick-list{
-            display: flex !important;
             margin:0;
             padding:0;
             width: 750px !important;
