@@ -441,7 +441,7 @@ body, #headerwarp {
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-  width: 470px; /* 수정*/
+  width: 400px; /* 수정*/
   height: 550px; /* 수정*/
   z-index: 1; /* 수정*/
 }
@@ -459,7 +459,7 @@ button.slick-prev, button.slick-next {
 }
 
 .doctor-item .doctor-cir .img {
-  width: 100%; /* 이미지를 부모 크기에 맞게 설정 */
+  width: 300px; /* 이미지를 부모 크기에 맞게 설정 */
   height: 100%; /* 이미지를 부모 크기에 맞게 설정 */
 }
 
@@ -510,6 +510,10 @@ button.slick-prev, button.slick-next {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.slick-arrow::before {
+  background-color: #F17522 !important;
 }
 
 .slick-current .doctor-item .doctor-cir > span:nth-child(2) {
@@ -568,4 +572,36 @@ button.slick-prev, button.slick-next {
   margin-left: 5px;
   position: relative;
   top: -3px;
+}
+
+#green19_82324 .box_ banArea {
+  display: flex;
+}
+#green19_82324 .firstbanner-rightsection {
+  display: flex;
+  width: 960px;
+  height: 592px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#green19_82324 .firstbanner-rightsection .rightsection {
+  display: flex;
+  align-items: center;
+  gap: 389px;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img {
+  display: flex;
+  width: 877px;
+  height: 287px;
+  align-items: center;
+  gap: 28px;
+  align-self: stretch;
+}
+#green19_82324 .firstbanner-rightsection .img1 {
+  background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
+}
+#green19_82324 .firstbanner-rightsection .img2 {
+  background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
 }
