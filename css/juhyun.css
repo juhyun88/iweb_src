@@ -635,18 +635,22 @@ button.slick-prev, button.slick-next {
   align-self: stretch;
   position: relative;
 }
-#green19_82324 .firstbanner-rightsection .rightsection_img .img1 {
-  background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
+#green19_82324 .firstbanner-rightsection .rightsection_img .img1,
+#green19_82324 .firstbanner-rightsection .rightsection_img .img2 {
   width: 356px !important;
   height: 287px !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .img1 {
+  background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .img2 {
   background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
-  width: 356px !important;
-  height: 287px !important;
 }
-#green19_82324 .firstbanner-rightsection .rightsection_img .left-button,
-#green19_82324 .firstbanner-rightsection .rightsection_img .right-button {
+#green19_82324 .firstbanner-rightsection .rightsection_img .slick-prev,
+#green19_82324 .firstbanner-rightsection .rightsection_img .slick-next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -663,11 +667,12 @@ button.slick-prev, button.slick-next {
   font-size: 20px;
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
 }
-#green19_82324 .firstbanner-rightsection .rightsection_img .left-button {
+#green19_82324 .firstbanner-rightsection .rightsection_img .slick-prev {
   left: -60px;
 }
-#green19_82324 .firstbanner-rightsection .rightsection_img .right-button {
+#green19_82324 .firstbanner-rightsection .rightsection_img .slick-next {
   right: -60px;
 }
 #green19_82324 .firstbanner-rightsection .slick-list {
