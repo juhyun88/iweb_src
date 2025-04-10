@@ -633,16 +633,42 @@ button.slick-prev, button.slick-next {
   align-items: center;
   gap: 28px;
   align-self: stretch;
+  position: relative;
 }
-#green19_82324 .firstbanner-rightsection .img1 {
+#green19_82324 .firstbanner-rightsection .rightsection_img .img1 {
   background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
   width: 356px !important;
   height: 287px !important;
 }
-#green19_82324 .firstbanner-rightsection .img2 {
+#green19_82324 .firstbanner-rightsection .rightsection_img .img2 {
   background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
   width: 356px !important;
   height: 287px !important;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .left-button,
+#green19_82324 .firstbanner-rightsection .rightsection_img .right-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: var(--Main, #F17522);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .left-button {
+  left: -60px;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .right-button {
+  right: -60px;
 }
 #green19_82324 .firstbanner-rightsection .slick-list {
   margin: 0;
@@ -656,11 +682,4 @@ button.slick-prev, button.slick-next {
 }
 #green19_82324 .firstbanner-rightsection .slick-slide .slick-active {
   width: auto !important;
-}
-#green19_82324 .firstbanner-rightsection button.slick-prev, #green19_82324 .firstbanner-rightsection button.slick-next {
-  z-index: 3; /* 슬라이드 네비게이션 버튼이 이미지보다 앞에 보이도록 설정 */
-  color: #F17522 !important; /* 화살표 색상 설정, !important 추가 */
-}
-#green19_82324 .firstbanner-rightsection .slick-arrow::before {
-  background-color: #F17522 !important;
 }

@@ -584,41 +584,43 @@ button.slick-prev, button.slick-next {
     }
 }
 
-#green19_82324{
-    .banArea{
+#green19_82324 {
+    .banArea {
         display: flex;
-    
-    } 
-    .firstbanner-rightsection{
+    }
+    .firstbanner-rightsection {
         display: flex;
         width: 960px;
         height: 592px;
-        padding:10px;
+        padding: 10px;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         background: #F9F1DE;
-        .rightsection_contanier{
+
+        .rightsection_contanier {
             width: 100%;
             display: flex !important;
             flex-direction: column !important;
             justify-content: center !important;
             height: 592px !important;
         }
+
         .rightsection {
             align-items: center;
             justify-content: space-between;
             width: 740px; // 글자 사이즈 넓이
             padding-bottom: 32px;
-            
-            span{
+
+            span {
                 color: #000;
                 font-family: "Paperlogy 5 Medium" !important;
                 font-size: 35px;
                 font-style: normal;
                 line-height: normal;
             }
-            button{
+
+            button {
                 display: flex;
                 width: 107px;
                 padding: 10px;
@@ -633,46 +635,73 @@ button.slick-prev, button.slick-next {
                 font-family: Paperlogy;
                 font-family: "Paperlogy 3 Light";
             }
-          
         }
-        .rightsection_img{
+
+        .rightsection_img {
             display: flex !important;
             width: 877px !important;
             height: 287px !important;
             align-items: center;
             gap: 28px;
             align-self: stretch;
+            position: relative;
+
+            .img1 {
+                background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
+                width: 356px !important;
+                height: 287px !important;
+            }
+
+            .img2 {
+                background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
+                width: 356px !important;
+                height: 287px !important;
+            }
+
+            .left-button,
+            .right-button {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 50px;
+                height: 50px;
+                background-color: var(--Main, #F17522);
+                border: none;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+
+            .left-button {
+                left: -60px;
+            }
+
+            .right-button {
+                right: -60px;
+            }
         }
-        .img1{
-            background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
-            width: 356px !important;
-            height: 287px !important;
-        }
-        .img2{
-            background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
-            width: 356px !important;
-            height: 287px !important;
-        }
-        .slick-list{
-            margin:0;
-            padding:0;
+
+        .slick-list {
+            margin: 0;
+            padding: 0;
             width: 750px !important;
             height: 40px !important;
             overflow: visible !important;
         }
+
         .slick-track {
             width: auto !important;
-            
         }
-        .slick-slide .slick-active{
+
+        .slick-slide .slick-active {
             width: auto !important;
-        }
-        button.slick-prev, button.slick-next {
-            z-index: 3; /* 슬라이드 네비게이션 버튼이 이미지보다 앞에 보이도록 설정 */
-            color: #F17522 !important; /* 화살표 색상 설정, !important 추가 */
-        }
-        .slick-arrow::before{
-            background-color: #F17522 !important
         }
     }
 }
+
