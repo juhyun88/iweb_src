@@ -601,12 +601,12 @@ button.slick-prev, button.slick-next {
 }
 #green19_82324 .firstbanner-rightsection .img1 {
   background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
-  width: 430px !important;
+  width: 356px !important;
   height: 287px !important;
 }
 #green19_82324 .firstbanner-rightsection .img2 {
   background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
-  width: 430px !important;
+  width: 356px !important;
   height: 287px !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-list {
@@ -615,7 +615,11 @@ button.slick-prev, button.slick-next {
   padding: 0;
   width: 750px !important;
   height: 40px !important;
+  overflow: visible !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-track {
+  width: auto !important;
+}
+#green19_82324 .firstbanner-rightsection .slick-slide .slick-active {
   width: auto !important;
 }

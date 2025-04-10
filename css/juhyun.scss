@@ -611,12 +611,12 @@ button.slick-prev, button.slick-next {
         }
         .img1{
             background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
-            width: 430px !important;
+            width: 356px !important;
             height: 287px !important;
         }
         .img2{
             background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
-            width: 430px !important;
+            width: 356px !important;
             height: 287px !important;
         }
         .slick-list{
@@ -625,9 +625,13 @@ button.slick-prev, button.slick-next {
             padding:0;
             width: 750px !important;
             height: 40px !important;
-           
+            overflow: visible !important;
         }
         .slick-track {
+            width: auto !important;
+            
+        }
+        .slick-slide .slick-active{
             width: auto !important;
         }
     }
