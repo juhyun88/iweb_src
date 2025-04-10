@@ -672,7 +672,6 @@ button.slick-prev, button.slick-next {
                 height: 50px;
                 background-color: var(--Main, #F17522);
                 border: none;
-                border-radius: 50%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -682,14 +681,6 @@ button.slick-prev, button.slick-next {
                 font-weight: bold;
                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
                 z-index: 10;
-            }
-
-            .slick-prev {
-                left: -60px;
-            }
-
-            .slick-next {
-                right: -60px;
             }
         }
 
