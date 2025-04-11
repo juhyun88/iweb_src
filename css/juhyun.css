@@ -16,6 +16,10 @@ body, #headerwarp {
   display: none !important;
 }
 
+#green19_82661 ~ div {
+  display: none !important;
+}
+
 #gNavi.gNavi > ul:after {
   content: "";
   position: absolute;
