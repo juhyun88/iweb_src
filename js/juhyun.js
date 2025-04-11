@@ -48,7 +48,7 @@ $(function() {
 $(function () {
     if ($(".firstbanner-rightsection .rightsection_img").length) {
         $(".firstbanner-rightsection .rightsection_img").slick({
-            centerMode: true,
+            centerMode: false,
             centerPadding: '0px',
             infinite: true, // 무한 루프 활성화
             arrows: true, // 화살표 버튼 활성화

@@ -638,13 +638,8 @@ button.slick-prev, button.slick-next {
         }
 
         .rightsection_img {
-            display: flex !important;
-            width: 740px !important;
-            height: 287px !important;
-            margin: 0 auto !important;
-            align-items: center;
-            gap: 28px;
-            align-self: stretch;
+            width: 740px;
+            margin: 0 auto;
             position: relative;
 
             .img1,
@@ -698,10 +693,11 @@ button.slick-prev, button.slick-next {
             margin: 0;
             padding: 0;
             width: 750px !important;
-            overflow: visible !important;
+            overflow: hidden !important;
         }
 
         .slick-track {
+            display: flex !important;
             width: auto !important;
         }
 

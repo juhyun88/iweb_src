@@ -627,13 +627,8 @@ button.slick-prev, button.slick-next {
   font-family: "Paperlogy 3 Light";
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img {
-  display: flex !important;
-  width: 740px !important;
-  height: 287px !important;
-  margin: 0 auto !important;
-  align-items: center;
-  gap: 28px;
-  align-self: stretch;
+  width: 740px;
+  margin: 0 auto;
   position: relative;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .img1,
@@ -681,9 +676,10 @@ button.slick-prev, button.slick-next {
   margin: 0;
   padding: 0;
   width: 750px !important;
-  overflow: visible !important;
+  overflow: hidden !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-track {
+  display: flex !important;
   width: auto !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-slide .slick-active {
