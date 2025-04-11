@@ -727,6 +727,11 @@ button.slick-prev, button.slick-next {
 
 //유뷰트 섹션//
 #green19_82661{
+    background: var(--Color-2, #DBEBF6);
+
+    .banArea{
+    margin-top: -75px;}
+    
 .youtobe_section_img {
     width: 1609px;
     height: 302px;
@@ -777,21 +782,21 @@ button.slick-prev, button.slick-next {
         height: 50px;
     }
     .slick-arrow.slick-prev::after{
-        left: -63px !important;
+        left: 275px !important;
         width: 2px !important ;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::after{
-        left: 30% !important;
+        left: 40% !important;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-prev::before{
-        left: -63px !important;
+        left: 275px !important;
         width: 2px !important ;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::before{
-        left: 30% !important;
+        left: 40% !important;
         background-color: #f17522 !important;
     }
 
@@ -807,8 +812,9 @@ button.slick-prev, button.slick-next {
 .slick-list {
     margin: 0;
     padding: 0;
-    width: 1300px !important;
+    width: 1225px !important;
     overflow: hidden !important;
+    left: 160px;
 }
 
 .slick-track {
