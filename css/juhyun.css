@@ -628,8 +628,9 @@ button.slick-prev, button.slick-next {
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img {
   display: flex !important;
-  width: 877px !important;
+  width: 740px !important;
   height: 287px !important;
+  margin: 0 auto !important;
   align-items: center;
   gap: 28px;
   align-self: stretch;
@@ -647,6 +648,12 @@ button.slick-prev, button.slick-next {
   background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .img2 {
+  background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .img3 {
+  background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .img4 {
   background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .slick-prev,

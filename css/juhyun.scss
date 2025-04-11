@@ -639,8 +639,9 @@ button.slick-prev, button.slick-next {
 
         .rightsection_img {
             display: flex !important;
-            width: 877px !important;
+            width: 740px !important;
             height: 287px !important;
+            margin: 0 auto !important;
             align-items: center;
             gap: 28px;
             align-self: stretch;
@@ -660,6 +661,13 @@ button.slick-prev, button.slick-next {
             }
 
             .img2 {
+                background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
+            }
+            .img3 {
+                background: url("https://juhyun88.github.io/iweb_src/first_banner/Rlbg.jpg") center/cover no-repeat;
+            }
+
+            .img4 {
                 background: url("https://juhyun88.github.io/iweb_src/first_banner/Rrbg.jpg") center/cover no-repeat;
             }
 

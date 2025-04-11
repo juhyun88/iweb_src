@@ -48,7 +48,8 @@ $(function() {
 $(function () {
     if ($(".firstbanner-rightsection .rightsection_img").length) {
         $(".firstbanner-rightsection .rightsection_img").slick({
-         
+            centerMode: true,
+            centerPadding: '0px',
             infinite: true, // 무한 루프 활성화
             arrows: true, // 화살표 버튼 활성화
             speed: 300, // 슬라이드 전환 속도
@@ -60,7 +61,7 @@ $(function () {
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 4,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: true,
@@ -69,14 +70,14 @@ $(function () {
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 4,
                         slidesToScroll: 1,
                     },
                 },
                 {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 4,
                         slidesToScroll: 1,
                     },
                 },
