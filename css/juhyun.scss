@@ -5,7 +5,11 @@ body, #headerwarp{
     display: flex !important;
     justify-content: center !important;
 }
-
+#green19_82324{
+    + div{
+        display: none !important;
+    }
+}
     
 #gNavi{
     &.gNavi{

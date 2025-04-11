@@ -8,6 +8,10 @@ body, #headerwarp {
   justify-content: center !important;
 }
 
+#green19_82324 + div {
+  display: none !important;
+}
+
 #gNavi.gNavi > ul:after {
   content: "";
   position: absolute;
