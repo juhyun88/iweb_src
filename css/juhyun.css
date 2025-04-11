@@ -16,10 +16,6 @@ body, #headerwarp {
   display: none !important;
 }
 
-#green19_82661 > div:nth-child(2) {
-  display: none !important; /* 두 번째 자식 div 숨기기 */
-}
-
 #gNavi.gNavi > ul:after {
   content: "";
   position: absolute;
