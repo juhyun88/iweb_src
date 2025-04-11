@@ -698,6 +698,13 @@ button.slick-prev, button.slick-next {
         .slick-slide .slick-active {
             width: auto !important;
         }
+        slick-prev {
+            left: -5px; /* 화살표 위치 조정 */
+        }
+
+        .slick-next {
+            right: -5px; /* 화살표 위치 조정 */
+        }
     }
 }
 

@@ -54,8 +54,8 @@ $(function () {
             speed: 300, // 슬라이드 전환 속도
             slidesToShow: 2, // 한 번에 보여줄 슬라이드 개수
             slidesToScroll: 1, // 한 번에 움직일 슬라이드 개수
-            prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><</button>', // 이전 화살표
-            nextArrow: '<button class="slick-next" aria-label="Next" type="button">></button>', // 다음 화살표
+            prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">←</button>', // 이전 화살표
+            nextArrow: '<button class="slick-next" aria-label="Next" type="button">→</button>', // 다음 화살표
             responsive: [
                 {
                     breakpoint: 1024,

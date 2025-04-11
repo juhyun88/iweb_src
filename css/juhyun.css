@@ -680,3 +680,9 @@ button.slick-prev, button.slick-next {
 #green19_82324 .firstbanner-rightsection .slick-slide .slick-active {
   width: auto !important;
 }
+#green19_82324 .firstbanner-rightsection slick-prev {
+  left: -5px; /* 화살표 위치 조정 */
+}
+#green19_82324 .firstbanner-rightsection .slick-next {
+  right: -5px; /* 화살표 위치 조정 */
+}
