@@ -739,8 +739,7 @@ button.slick-prev, button.slick-next {
 #green19_82661{
     background: var(--Color-2, #DBEBF6);
 
-    .banArea{
-    margin-top: -75px;}
+
 
 .youtobe_section_img {
     width: 1609px;
@@ -854,6 +853,7 @@ button.slick-prev, button.slick-next {
     height: 824px;
     justify-content: center;
     background-color: white;
+    align-items: center;
     
     .map_img{
         background: url("https://juhyun88.github.io/iweb_src/youtube/map.jpg") center/cover no-repeat;
@@ -888,4 +888,3 @@ button.slick-prev, button.slick-next {
         }
     }
 }
-
