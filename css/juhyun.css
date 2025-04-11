@@ -262,8 +262,8 @@ body, #headerwarp {
   display: flex;
   flex-direction: column;
   bottom: 0;
-  position: absolute;
   gap: 15px;
+  align-items: center;
 }
 #green19_82309 .quick-bottom .quick-btn {
   background: none;
