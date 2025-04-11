@@ -804,7 +804,7 @@ button.slick-prev, button.slick-next {
   padding: 3px;
 }
 
-#green19_82661 {
+#green19_82681 {
   display: flex;
   width: 1920px;
   height: 824px;
@@ -813,6 +813,6 @@ button.slick-prev, button.slick-next {
   align-items: center;
   flex-shrink: 0;
 }
-#green19_82661 .map_img {
+#green19_82681 .map_img {
   background: url("https://juhyun88.github.io/iweb_src/youtube/map.jpg") center/cover no-repeat;
 }
