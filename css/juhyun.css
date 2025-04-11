@@ -620,11 +620,10 @@ button.slick-prev, button.slick-next {
   align-items: center;
   gap: 10px;
   border-radius: 36px;
-  background: var(--Main, #F17522);
-  border: none;
-  color: white;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid;
+  color: #F17522;
   font-size: 17px;
-  font-family: Paperlogy;
   font-family: "Paperlogy 3 Light";
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img {
