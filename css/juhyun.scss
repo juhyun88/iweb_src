@@ -10,6 +10,11 @@ body, #headerwarp{
         display: none !important;
     }
 }
+#green19_82661{
+    + div{
+        display: none !important;
+    }
+}
     
 #gNavi{
     &.gNavi{
@@ -846,12 +851,8 @@ button.slick-prev, button.slick-next {
 //지도//
 #green19_82681{
     display: flex;
-    width: 1920px;
     height: 824px;
-    padding: 10px;
-    justify-content: space-between;
-    align-items: center;
-    flex-shrink: 0;
+    justify-content: center;
     background-color: white;
     
     .map_img{
