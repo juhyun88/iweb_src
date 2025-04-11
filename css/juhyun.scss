@@ -614,11 +614,6 @@ button.slick-prev, button.slick-next {
             padding-bottom: 32px;
             padding-left: 98px;
 
-            .slick-track{
-
-                gap:25px;
-            }
-
             span {
                 color: #000;
                 font-family: "Paperlogy 5 Medium" !important;
@@ -652,11 +647,12 @@ button.slick-prev, button.slick-next {
             .img2,
             .img3,
             .img4 {
-                // width: 356px !important;
+                width: 356px !important;
                 height: 287px !important;
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
+                margin:0 15px;
             }
 
             .img1 {
@@ -825,7 +821,7 @@ button.slick-prev, button.slick-next {
 .slick-track {
     display: flex !important;
     width: auto !important;
-
+    
 }
 
 .slick-slide .slick-active {
