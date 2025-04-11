@@ -731,7 +731,7 @@ button.slick-prev, button.slick-next {
 
     .banArea{
     margin-top: -75px;}
-    
+
 .youtobe_section_img {
     width: 1609px;
     height: 302px;
@@ -825,4 +825,17 @@ button.slick-prev, button.slick-next {
 .slick-slide .slick-active {
     width: auto !important;
 }
+}
+
+//퀵버튼//
+#green19_82309 .quick-bottom .quick-btn img{
+    width: 44px!important;
+    height: 44px!important;
+   
+}
+#green19_82309 .quick-btn4{
+    background: var(--Color-4, #F9F1DE);
+    border-radius:  25.414px;   
+    border:  none;
+    padding: 3px;
 }
