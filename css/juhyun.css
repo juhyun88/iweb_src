@@ -746,17 +746,24 @@ button.slick-prev, button.slick-next {
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
-  background-color: var(--Main, #F17522);
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 10;
+}
+#green19_82661 .youtobe_section_img .slick-arrow.slick-prev::after {
+  left: -63px !important;
+  width: 2px !important;
+  background-color: #f17522 !important;
+}
+#green19_82661 .youtobe_section_img .slick-arrow.slick-next::after {
+  left: 30% !important;
+  background-color: #f17522 !important;
+}
+#green19_82661 .youtobe_section_img .slick-arrow.slick-prev::before {
+  left: -63px !important;
+  width: 2px !important;
+  background-color: #f17522 !important;
+}
+#green19_82661 .youtobe_section_img .slick-arrow.slick-next::before {
+  left: 30% !important;
+  background-color: #f17522 !important;
 }
 #green19_82661 .youtobe_section_img .slick-prev {
   left: -60px; /* 이전 버튼 위치 */
