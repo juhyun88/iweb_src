@@ -614,9 +614,9 @@ button.slick-prev, button.slick-next {
         .rightsection {
             align-items: center;
             justify-content: space-between;
-            width: 660px; // 글자 사이즈 넓이
+            width: 625px; // 글자 사이즈 넓이
             padding-bottom: 32px;
-            padding-left: 98px;
+            padding-left: 115px;
 
             span {
                 color: #000;
@@ -651,7 +651,7 @@ button.slick-prev, button.slick-next {
             .img2,
             .img3,
             .img4 {
-                width: 356px !important;
+                width: 300px !important;
                 height: 287px !important;
                 background-size: cover;
                 background-position: center;
@@ -747,13 +747,14 @@ button.slick-prev, button.slick-next {
     display: flex !important;
     align-items: center;
     justify-content: center;
-
+    
+   
     .img1,
     .img2,
     .img3,
     .img4,
     .img5 {
-        width: 317px !important;
+        width: 256px !important;
         height: 260px !important;
         background-size: cover;
         background-position: center;
@@ -822,11 +823,7 @@ button.slick-prev, button.slick-next {
     left: 160px;
 }
 
-.slick-track {
-    display: flex !important;
-    width: auto !important;
-    
-}
+
 
 .slick-slide .slick-active {
     width: auto !important;

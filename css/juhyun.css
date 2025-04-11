@@ -605,9 +605,9 @@ button.slick-prev, button.slick-next {
 #green19_82324 .firstbanner-rightsection .rightsection {
   align-items: center;
   justify-content: space-between;
-  width: 660px;
+  width: 625px;
   padding-bottom: 32px;
-  padding-left: 98px;
+  padding-left: 115px;
 }
 #green19_82324 .firstbanner-rightsection .rightsection span {
   color: #000;
@@ -639,7 +639,7 @@ button.slick-prev, button.slick-next {
 #green19_82324 .firstbanner-rightsection .rightsection_img .img2,
 #green19_82324 .firstbanner-rightsection .rightsection_img .img3,
 #green19_82324 .firstbanner-rightsection .rightsection_img .img4 {
-  width: 356px !important;
+  width: 300px !important;
   height: 287px !important;
   background-size: cover;
   background-position: center;
@@ -729,7 +729,7 @@ button.slick-prev, button.slick-next {
 #green19_82661 .youtobe_section_img .img3,
 #green19_82661 .youtobe_section_img .img4,
 #green19_82661 .youtobe_section_img .img5 {
-  width: 317px !important;
+  width: 256px !important;
   height: 260px !important;
   background-size: cover;
   background-position: center;
@@ -788,10 +788,6 @@ button.slick-prev, button.slick-next {
   width: 1225px !important;
   overflow: hidden !important;
   left: 160px;
-}
-#green19_82661 .slick-track {
-  display: flex !important;
-  width: auto !important;
 }
 #green19_82661 .slick-slide .slick-active {
   width: auto !important;
