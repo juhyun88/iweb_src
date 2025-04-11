@@ -605,6 +605,9 @@ button.slick-prev, button.slick-next {
   padding-bottom: 32px;
   padding-left: 98px;
 }
+#green19_82324 .firstbanner-rightsection .rightsection .slick-track {
+  gap: 25px;
+}
 #green19_82324 .firstbanner-rightsection .rightsection span {
   color: #000;
   font-family: "Paperlogy 5 Medium" !important;
@@ -635,7 +638,6 @@ button.slick-prev, button.slick-next {
 #green19_82324 .firstbanner-rightsection .rightsection_img .img2,
 #green19_82324 .firstbanner-rightsection .rightsection_img .img3,
 #green19_82324 .firstbanner-rightsection .rightsection_img .img4 {
-  width: 356px !important;
   height: 287px !important;
   background-size: cover;
   background-position: center;
@@ -828,7 +830,7 @@ button.slick-prev, button.slick-next {
 #green19_82681 .map_text {
   display: flex;
   width: 447px;
-  height: 375px;
+  height: 440px;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
@@ -840,5 +842,8 @@ button.slick-prev, button.slick-next {
   line-height: normal;
 }
 #green19_82681 .map_text .map_text_logo {
+  width: 386px;
+  height: 85px;
+  padding: 0px 4.885px 0.366px 0px;
   background: url("https://juhyun88.github.io/iweb_src/logoimg/logo129.png") center/cover no-repeat;
 }
