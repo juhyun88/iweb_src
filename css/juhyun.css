@@ -601,8 +601,9 @@ button.slick-prev, button.slick-next {
 #green19_82324 .firstbanner-rightsection .rightsection {
   align-items: center;
   justify-content: space-between;
-  width: 740px;
+  width: 660px;
   padding-bottom: 32px;
+  padding-left: 98px;
 }
 #green19_82324 .firstbanner-rightsection .rightsection span {
   color: #000;
@@ -660,22 +661,29 @@ button.slick-prev, button.slick-next {
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
-  background-color: var(--Main, #F17522);
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 10;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-prev::after {
+  left: -63px !important;
+  width: 2px !important;
+  background-color: #f17522 !important;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-next::after {
+  left: 30% !important;
+  background-color: #f17522 !important;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-prev::before {
+  left: -63px !important;
+  width: 2px !important;
+  background-color: #f17522 !important;
+}
+#green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-next::before {
+  left: 30% !important;
+  background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-list {
   margin: 0;
   padding: 0;
-  width: 750px !important;
+  width: 655px !important;
   overflow: hidden !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-track {
@@ -685,7 +693,7 @@ button.slick-prev, button.slick-next {
 #green19_82324 .firstbanner-rightsection .slick-slide .slick-active {
   width: auto !important;
 }
-#green19_82324 .firstbanner-rightsection slick-prev {
+#green19_82324 .firstbanner-rightsection .slick-prev {
   left: -5px; /* 화살표 위치 조정 */
 }
 #green19_82324 .firstbanner-rightsection .slick-next {
