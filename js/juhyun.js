@@ -94,8 +94,10 @@ $(function () {
 
 //유튜브 슬라이드//
 $(function () {
-    if ($("youtobe_section_img").length) {
-        $("youtobe_section_img").slick({
+    if ($(".youtobe_section_img").length) {
+        $(".youtobe_section_img").slick({
+            centerMode: false,
+            centerPadding: '0px',
             infinite: true, // 무한 루프 활성화
             arrows: true, // 화살표 버튼 활성화
             speed: 300, // 슬라이드 전환 속도
