@@ -803,3 +803,14 @@ button.slick-prev, button.slick-next {
   border: none;
   padding: 3px;
 }
+
+#green19_82661 {
+  display: flex;
+  width: 1920px;
+  height: 824px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background: url("https://juhyun88.github.io/iweb_src/youtube/map.jpg") center/cover no-repeat;
+}
