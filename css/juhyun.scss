@@ -740,8 +740,13 @@ button.slick-prev, button.slick-next {
 //유뷰트 섹션//
 #green19_82661{
     background: var(--Color-2, #DBEBF6);
+    margin-top: -20px !important;
+    margin-bottom: -20px !important;
+}
 
-
+.area{
+    margin-top: auto !important;
+}
 
 .youtobe_section_img {
     width: 1609px;
@@ -834,7 +839,7 @@ button.slick-prev, button.slick-next {
 .slick-slide .slick-active {
     width: auto !important;
 }
-}
+
 
 //퀵버튼//
 #green19_82309 .quick-bottom .quick-btn img{

@@ -713,8 +713,15 @@ button.slick-prev, button.slick-next {
 
 #green19_82661 {
   background: var(--Color-2, #DBEBF6);
+  margin-top: -20px !important;
+  margin-bottom: -20px !important;
 }
-#green19_82661 .youtobe_section_img {
+
+.area {
+  margin-top: auto !important;
+}
+
+.youtobe_section_img {
   width: 1609px;
   height: 302px;
   gap: 57px;
@@ -725,72 +732,74 @@ button.slick-prev, button.slick-next {
   align-items: center;
   justify-content: center;
 }
-#green19_82661 .youtobe_section_img .img1,
-#green19_82661 .youtobe_section_img .img2,
-#green19_82661 .youtobe_section_img .img3,
-#green19_82661 .youtobe_section_img .img4,
-#green19_82661 .youtobe_section_img .img5 {
+.youtobe_section_img .img1,
+.youtobe_section_img .img2,
+.youtobe_section_img .img3,
+.youtobe_section_img .img4,
+.youtobe_section_img .img5 {
   width: 256px !important;
   height: 260px !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#green19_82661 .youtobe_section_img .img1 {
+.youtobe_section_img .img1 {
   background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe1.jpg") center/cover no-repeat;
 }
-#green19_82661 .youtobe_section_img .img2 {
+.youtobe_section_img .img2 {
   background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe2.jpg") center/cover no-repeat;
 }
-#green19_82661 .youtobe_section_img .img3 {
+.youtobe_section_img .img3 {
   background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe3.jpg") center/cover no-repeat;
 }
-#green19_82661 .youtobe_section_img .img4 {
+.youtobe_section_img .img4 {
   background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe4.jpg") center/cover no-repeat;
 }
-#green19_82661 .youtobe_section_img .img5 {
+.youtobe_section_img .img5 {
   background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe1.jpg") center/cover no-repeat;
 }
-#green19_82661 .youtobe_section_img .slick-prev,
-#green19_82661 .youtobe_section_img .slick-next {
+.youtobe_section_img .slick-prev,
+.youtobe_section_img .slick-next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
 }
-#green19_82661 .youtobe_section_img .slick-arrow.slick-prev::after {
+.youtobe_section_img .slick-arrow.slick-prev::after {
   left: 275px !important;
   width: 2px !important;
   background-color: #f17522 !important;
 }
-#green19_82661 .youtobe_section_img .slick-arrow.slick-next::after {
+.youtobe_section_img .slick-arrow.slick-next::after {
   left: 130% !important;
   background-color: #f17522 !important;
 }
-#green19_82661 .youtobe_section_img .slick-arrow.slick-prev::before {
+.youtobe_section_img .slick-arrow.slick-prev::before {
   left: 275px !important;
   width: 2px !important;
   background-color: #f17522 !important;
 }
-#green19_82661 .youtobe_section_img .slick-arrow.slick-next::before {
+.youtobe_section_img .slick-arrow.slick-next::before {
   left: 130% !important;
   background-color: #f17522 !important;
 }
-#green19_82661 .youtobe_section_img .slick-prev {
+.youtobe_section_img .slick-prev {
   left: -60px; /* 이전 버튼 위치 */
 }
-#green19_82661 .youtobe_section_img .slick-next {
+.youtobe_section_img .slick-next {
   right: -60px; /* 다음 버튼 위치 */
 }
-#green19_82661 .slick-list {
+
+.slick-list {
   margin: 0;
   padding: 0;
   width: 1225px !important;
   overflow: hidden !important;
   left: 160px;
 }
-#green19_82661 .slick-slide .slick-active {
+
+.slick-slide .slick-active {
   width: auto !important;
 }
 
