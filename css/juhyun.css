@@ -637,7 +637,9 @@ button.slick-prev, button.slick-next {
   position: relative;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .img1,
-#green19_82324 .firstbanner-rightsection .rightsection_img .img2 {
+#green19_82324 .firstbanner-rightsection .rightsection_img .img2,
+#green19_82324 .firstbanner-rightsection .rightsection_img .img3,
+#green19_82324 .firstbanner-rightsection .rightsection_img .img4 {
   width: 356px !important;
   height: 287px !important;
   background-size: cover;
