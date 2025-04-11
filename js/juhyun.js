@@ -96,8 +96,6 @@ $(function () {
 $(function () {
     if ($("youtobe_section_img").length) {
         $("youtobe_section_img").slick({
-            centerMode: false,
-            centerPadding: '0px',
             infinite: true, // 무한 루프 활성화
             arrows: true, // 화살표 버튼 활성화
             speed: 300, // 슬라이드 전환 속도
@@ -109,7 +107,7 @@ $(function () {
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: true,
@@ -118,14 +116,14 @@ $(function () {
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                     },
                 },
                 {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 4,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                     },
                 },
