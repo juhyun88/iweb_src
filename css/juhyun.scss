@@ -787,7 +787,7 @@ button.slick-prev, button.slick-next {
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::after{
-        left: 40% !important;
+        left: 130% !important;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-prev::before{
@@ -796,7 +796,7 @@ button.slick-prev, button.slick-next {
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::before{
-        left: 40% !important;
+        left: 130% !important;
         background-color: #f17522 !important;
     }
 
@@ -873,9 +873,11 @@ button.slick-prev, button.slick-next {
         span{
             color: #000000;
             font-family: "Paperlogy 5 Medium" !important;
-            font-size: 35px !important;
             font-style: normal;
             line-height: normal; 
+        }
+        .map_text_logo{
+            background: url("https://juhyun88.github.io/iweb_src/logoimg/logo129.png") center/cover no-repeat;
         }
     }
 }

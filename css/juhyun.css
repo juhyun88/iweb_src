@@ -759,7 +759,7 @@ button.slick-prev, button.slick-next {
   background-color: #f17522 !important;
 }
 #green19_82661 .youtobe_section_img .slick-arrow.slick-next::after {
-  left: 40% !important;
+  left: 130% !important;
   background-color: #f17522 !important;
 }
 #green19_82661 .youtobe_section_img .slick-arrow.slick-prev::before {
@@ -768,7 +768,7 @@ button.slick-prev, button.slick-next {
   background-color: #f17522 !important;
 }
 #green19_82661 .youtobe_section_img .slick-arrow.slick-next::before {
-  left: 40% !important;
+  left: 130% !important;
   background-color: #f17522 !important;
 }
 #green19_82661 .youtobe_section_img .slick-prev {
@@ -836,7 +836,9 @@ button.slick-prev, button.slick-next {
 #green19_82681 .map_text span {
   color: #000000;
   font-family: "Paperlogy 5 Medium" !important;
-  font-size: 35px !important;
   font-style: normal;
   line-height: normal;
+}
+#green19_82681 .map_text .map_text_logo {
+  background: url("https://juhyun88.github.io/iweb_src/logoimg/logo129.png") center/cover no-repeat;
 }
