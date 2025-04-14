@@ -49,12 +49,14 @@ body, #headerwarp{
                 background-color: #558CCF;
                 li{
                     padding: 0 5rem;
+                    transition: all 0.5s;
                 }
                 &::before,
                 ul{
                     height: 300px;
                     margin: 0 0px;
                     background-color: #66ac25;
+                    transition: all 0.5s;
                 }
             }
             ul{
@@ -75,13 +77,12 @@ body, #headerwarp{
                     font-size: 15px !important;
                     background-color: transparent !important;
                     font-family: "Paperlogy 3 Light";
-                    padding:8px 56px !important;
-                    text-align: start;
+                    padding:8px 0px !important;
                 }
             }
          > li {
             //대메뉴 li
-        
+            padding: 0 20px !important;
             > a{
                 //대메뉴
               font-family: "Paperlogy 6 SemiBold" !important;
@@ -942,4 +943,12 @@ button.slick-prev, button.slick-next {
             background: url("https://juhyun88.github.io/iweb_src/logoimg/logo129.png") center/cover no-repeat;
         }
     }
+}
+
+
+#gNavi.gNavi > #gNaviNum0:hover a{
+    color: white;
+}
+#gNavi.gNavi > #gNaviNum0:hover > li{
+    color: white;
 }

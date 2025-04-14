@@ -48,12 +48,14 @@ body, #headerwarp {
 }
 #gNavi.gNavi > ul:hover li {
   padding: 0 5rem;
+  transition: all 0.5s;
 }
 #gNavi.gNavi > ul:hover::before,
 #gNavi.gNavi > ul:hover ul {
   height: 300px;
   margin: 0 0px;
   background-color: #66ac25;
+  transition: all 0.5s;
 }
 #gNavi.gNavi > ul ul {
   display: block !important;
@@ -73,8 +75,10 @@ body, #headerwarp {
   font-size: 15px !important;
   background-color: transparent !important;
   font-family: "Paperlogy 3 Light";
-  padding: 8px 56px !important;
-  text-align: start;
+  padding: 8px 0px !important;
+}
+#gNavi.gNavi > ul > li {
+  padding: 0 20px !important;
 }
 #gNavi.gNavi > ul > li > a {
   font-family: "Paperlogy 6 SemiBold" !important;
@@ -899,4 +903,12 @@ button.slick-prev, button.slick-next {
   height: 85px;
   padding: 0px 4.885px 0.366px 0px;
   background: url("https://juhyun88.github.io/iweb_src/logoimg/logo129.png") center/cover no-repeat;
+}
+
+#gNavi.gNavi > #gNaviNum0:hover a {
+  color: white;
+}
+
+#gNavi.gNavi > #gNaviNum0:hover > li {
+  color: white;
 }
