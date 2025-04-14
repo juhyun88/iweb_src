@@ -43,9 +43,13 @@ body, #headerwarp{
                 transition: 0.5s;
             }
             &:hover{
+                margin: 0 -50px;
+                background-color: #66ac25;
                 &::before,
                 ul{
                     height: 300px;
+                    margin: 0 -50px;
+                    background-color: #66ac25;
                 }
             }
             ul{
@@ -66,6 +70,7 @@ body, #headerwarp{
                     font-size: 15px !important;
                     background-color: transparent !important;
                     font-family: "Paperlogy 3 Light";
+                    padding: 0 50px !important;
                 }
             }
          > li {
