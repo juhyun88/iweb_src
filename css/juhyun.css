@@ -52,7 +52,7 @@ body, #headerwarp {
 #gNavi.gNavi > ul:hover::before,
 #gNavi.gNavi > ul:hover ul {
   height: 300px;
-  margin: 0 -50px;
+  margin: 0 0px;
   background-color: #66ac25;
 }
 #gNavi.gNavi > ul ul {
@@ -78,6 +78,7 @@ body, #headerwarp {
 }
 #gNavi.gNavi > ul > li > a {
   font-family: "Paperlogy 6 SemiBold" !important;
+  padding: 0px 15px !important;
 }
 #gNavi.gNavi > ul > li > a.active:after {
   content: "";

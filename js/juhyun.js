@@ -138,7 +138,7 @@ $(function () {
 //상단 메뉴바 색 //
 
 $(document).ready(function(){
-  $('.gNavi > ul').hover(
+  $('.gNavi > ul > li').hover(
     function() {
       $(this).find('.web_logo').addClass('active-hover');
     },
