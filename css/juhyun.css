@@ -47,7 +47,7 @@ body, #headerwarp {
   background-color: #558CCF;
 }
 #gNavi.gNavi > ul:hover li {
-  padding: 0 5rem;
+  padding: 0 5rem !important;
   transition: all 0.5s;
 }
 #gNavi.gNavi > ul:hover::before,
@@ -56,6 +56,7 @@ body, #headerwarp {
   margin: 0 0px;
   background-color: #66ac25;
   transition: all 0.5s;
+  white-space: nowrap;
 }
 #gNavi.gNavi > ul ul {
   display: block !important;
