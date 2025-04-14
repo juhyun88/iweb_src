@@ -761,6 +761,7 @@ button.slick-prev, button.slick-next {
     display: flex !important;
     align-items: center;
     justify-content: center;
+    right: 135px;
     
    
     .img1,
@@ -790,7 +791,7 @@ button.slick-prev, button.slick-next {
         background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe4.jpg") center/cover no-repeat;
     }
     .img5 {
-        background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe1.jpg") center/cover no-repeat;
+        background: url("https://juhyun88.github.io/iweb_src/youtube/youtube5.jpg") center/cover no-repeat;
     }
 
     .slick-prev,
@@ -855,6 +856,10 @@ button.slick-prev, button.slick-next {
     border-radius:  25.414px;   
     border:  none;
     padding: 3px;
+}
+
+div[style] {
+    display: none !important; /* 부모 요소 숨기기 */
 }
 
 //지도//
