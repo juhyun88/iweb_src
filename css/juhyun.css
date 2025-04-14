@@ -16,6 +16,9 @@ body, #headerwarp {
   display: none !important;
 }
 
+#gNavi.gNavi {
+  margin: 0px 0px !important;
+}
 #gNavi.gNavi > ul:after {
   content: "";
   position: absolute;
@@ -59,7 +62,7 @@ body, #headerwarp {
   font-family: "Paperlogy 3 Light";
 }
 #gNavi.gNavi > ul > li > a {
-  font-family: "Paperlogy 3 Light" !important;
+  font-family: "Paperlogy 6 SemiBold" !important;
 }
 #gNavi.gNavi > ul > li > a.active:after {
   content: "";
@@ -72,8 +75,7 @@ body, #headerwarp {
   background: #00A2FF;
   width: 106px;
 }
-#gNavi a.sub_mm::before {
-  content: "";
+#gNavi #gNaviNum0 a.sub_mm::before {
   display: inline-block;
   width: 16px; /* 원하는 아이콘 크기 */
   height: 16px;
@@ -85,6 +87,11 @@ body, #headerwarp {
 }
 #gNavi #gNaviNum0 a {
   color: #F17522 !important;
+  font-family: "Paperlogy-8ExtraBold" !important;
+}
+
+#headerwarp .cssmenu {
+  justify-content: end !important;
 }
 
 #bodyTable ul.image-list_center {
