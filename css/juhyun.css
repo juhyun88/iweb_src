@@ -908,10 +908,14 @@ button.slick-prev, button.slick-next {
   background: url("https://juhyun88.github.io/iweb_src/logoimg/logo129.png") center/cover no-repeat;
 }
 
-#gNavi.gNavi > #gNaviNum0:hover a {
+#gNavi.gNavi > ul:hover a {
   color: white !important;
 }
 
-#gNavi.gNavi > #gNaviNum0:hover > li {
+#gNavi.gNavi > ul:hover > li {
   color: white !important;
+}
+
+#gNavi.gNavi > ul:hover #gNaviNum0 {
+  background-color: beige;
 }
