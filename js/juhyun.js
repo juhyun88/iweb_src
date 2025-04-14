@@ -133,3 +133,17 @@ $(function () {
         });
     }
 });
+
+
+//상단 메뉴바 색 //
+
+$(document).ready(function(){
+  $('.gNavi > ul > li').hover(
+    function() {
+      $(this).find('a').addClass('active-hover');
+    },
+    function() {
+      $(this).find('a').removeClass('active-hover');
+    }
+  );
+});

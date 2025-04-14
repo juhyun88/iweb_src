@@ -44,7 +44,7 @@ body, #headerwarp{
             }
             &:hover{
                 margin: 0 -50px;
-                background-color: #66ac25;
+                background-color: #558CCF;
                 li{
                     padding: 0 5rem;
                 }
@@ -83,6 +83,8 @@ body, #headerwarp{
             > a{
                 //대메뉴
               font-family: "Paperlogy 6 SemiBold" !important;
+              &.active-hover {
+                color: #3792D8 !important;
               &.active{
                 &:after {
                     content: '';
