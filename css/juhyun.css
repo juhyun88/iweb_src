@@ -43,7 +43,7 @@ body, #headerwarp {
   background-color: #66ac25;
 }
 #gNavi.gNavi > ul:hover li {
-  padding: 0 1rem;
+  padding: 0 5rem;
 }
 #gNavi.gNavi > ul:hover::before,
 #gNavi.gNavi > ul:hover ul {
