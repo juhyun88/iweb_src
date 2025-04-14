@@ -951,12 +951,9 @@ button.slick-prev, button.slick-next {
 }
 
 
-#gNavi.gNavi > ul:hover a{
-    color: white !important;
+#gNavi.gNavi > ul > li#gNaviNum0:hover > {
+    background-color: beige;
 }
-#gNavi.gNavi > ul:hover > li{
-    color: white !important;
-}
-#gNavi.gNavi > ul:hover #gNaviNum0{
+#gNavi.gNavi > ul > li#gNaviNum0:hover > ul {
     background-color: beige;
 }
