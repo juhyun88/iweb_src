@@ -18,87 +18,104 @@ body, #headerwarp{
 
 
 
-#gNavi{
+#gNavi {
+    &.gNavi {
+        margin: 0px 0px !important;
 
-    &.gNavi{
-       margin: 0px 0px !important;
-        > ul{
-            &:after{
+        > ul {
+            position: relative;
+
+            &:after {
                 content: "";
                 position: absolute;
                 top: 100%;
-                left: 0;    
+                left: 0;
                 width: 100%;
                 height: 1px;
-                background-color: #ccc;                
+                background-color: #ccc;
             }
-            &:before{
+
+            &:before {
                 content: "";
                 position: absolute;
                 top: 100%;
-                left: 0;    
+                left: 0;
                 width: 100%;
                 height: 0;
                 background-color: #fff;
                 transition: 0.5s;
             }
-            &:hover{
-                margin: 0 -50px;
-                background-color: #66ac25;
-                &::before,
-                ul{
+
+            &:hover {
+                margin-left: -50px; /* 왼쪽으로 벌어짐 */
+                background-color: #66ac25; /* 바탕색 변경 */
+
+                &::before {
                     height: 300px;
-                    margin: 0 -50px;
+                    background-color: #66ac25;
+                }
+
+                ul {
+                    height: 300px;
+                    margin-left: -50px; /* 서브 메뉴도 왼쪽으로 벌어짐 */
                     background-color: #66ac25;
                 }
             }
-            ul{
+
+            ul {
                 display: block !important;
                 min-width: 115px;
                 transform: translateX(0) !important;
-                height:0;
+                height: 0;
                 overflow: hidden;
-                transition: 0.5s;             
+                transition: 0.5s;
                 right: 0;
                 width: 100% !important;
                 position: absolute;
                 left: 0;
                 top: 90px;
 
-                li{
+                li {
                     display: block !important;
                     font-size: 15px !important;
                     background-color: transparent !important;
                     font-family: "Paperlogy 3 Light";
-                    padding:7px 0px !important;
+                    padding: 7px 0px !important;
                     text-align: start;
+
+                    &:hover {
+                        background-color: #558CCF; /* li 호버 시 바탕색 변경 */
+                        color: #fff; /* 텍스트 색상 변경 */
+                        transition: background-color 0.3s ease, color 0.3s ease;
+                    }
                 }
             }
-         > li {
-            //대메뉴 li
-        
-            > a{
-                //대메뉴
-              font-family: "Paperlogy 6 SemiBold" !important;
-              &.active{
-                &:after {
-                    content: '';
-                    position: absolute;
-                    bottom: 1px;
-                    left: 50%;
-                    transform: translate3d(-50%, 0, 0);
-                    width: 0;
-                    height: 4px;
-                    background: #00A2FF;
-                    width: 106px;
-                   }
-              }
+
+            > li {
+                // 대메뉴 li
+                > a {
+                    // 대메뉴
+                    font-family: "Paperlogy 6 SemiBold" !important;
+
+                    &.active {
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            bottom: 1px;
+                            left: 50%;
+                            transform: translate3d(-50%, 0, 0);
+                            width: 0;
+                            height: 4px;
+                            background: #00A2FF;
+                            width: 106px;
+                        }
+                    }
+                }
             }
         }
-     }
     }
+
     #gNaviNum0 a.sub_mm::before {
-        // content: "";
         display: inline-block;
         width: 16px; /* 원하는 아이콘 크기 */
         height: 16px;
@@ -107,17 +124,14 @@ body, #headerwarp{
         background-repeat: no-repeat;
         margin-right: 5px; /* 텍스트와 아이콘 사이 간격 */
         vertical-align: middle;
-      }
-      #gNaviNum0{
+    }
+
+    #gNaviNum0 {
         a {
             color: #F17522 !important;
-            font-family: 'Paperlogy-8ExtraBold'!important;
+            font-family: 'Paperlogy-8ExtraBold' !important;
         }
-      }
-}
-
-#headerwarp .cssmenu{
-    justify-content: end !important;
+    }
 }
 #bodyTable {
     ul.image-list_center {
@@ -937,139 +951,3 @@ button.slick-prev, button.slick-next {
     }
 }
 
-#gNavi.ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-  // white-space: nowrap;
-  &:before{
-    content: "";
-    display: block;
-    position: absolute;
-    top:100%;
-    left:0; width:100%;
-    background-color: #d0dbd5e3;
-    height: 0;
-    transition: 0.5s;
-
-  }
-  a{
-    color:rgb(14, 13, 13);
-    &:hover{
-        font-weight: 600;
-      }
-      }
-    
-  
-
-  &:hover{
-    #gNaviNum0{
-      padding: 0 1rem;
-    }
-    @media (min-width:1024px) {
-      &:before{
-        height: 280px;
-      }
-      .ul {
-        height:280px !important;
-        // background-color: red;
-
-      }
-      
-    }
-   
-  }
-  .li{
-    display: inline-block;
-    position: relative; 
-    transition: 0.5s;
-    
-    &:hover{
-     
-      .a{
-        color:#006838 !important; //대메뉴활성화
-        
-      }
-    }
-
-    a:hover{
-      
-      color:#ffffff !important; //대메뉴활성화
-      border-radius: 5px;
-    
-    }
-
-
-    .a {
-      text-decoration: none;
-      font-size: 19px;
-      // padding: 0 22.37px;
-      // font-family: 'Paperlogy 5 Medium';
-      font-family: "Paperlogy 4 Regular";
-      color: white;
-      font-weight: 500;
-      // letter-spacing: -0.085em;
-      // font-family: "Noto Sans KR";
-      display: flex;
-      align-items: center;
-      @media (max-width:1024px){
-        font-size: 20px;
-      }
-    }
-    .ul {
-      height:0;
-      overflow: hidden;
-      transition: 0.5s;       
-      width: max-content;
-      white-space: nowrap;
-      padding: 0;
-      margin: 0;
-      top: 100%; // 마우스오버시 내려오는 공간 위치 조정
-      left: 0;
-      min-width:150px; 
-      &:before{
-        content: "";
-        display: block;
-        height: 4rem;
-      }     
-      .li {
-        padding: 5px 10px;
-        text-align: center;
-        font-size: 16px;
-        line-height: 2;
-
-       &:hover {
-          background-color: #006838; /* 원하는 색상으로 변경 */
-          border-radius: 15px;
-      }
-      
-        a {
-          text-decoration: none;
-          
-        }
-        .li #gNaviNum0 a, .li #gNaviNum1 a, .li #gNaviNum2 a, .li #gNaviNum3 a{
-          background-color: #006838;
-        }
-      }
-      @media (max-width:1024px) {
-        position: relative !important;
-        height: auto;
-        max-height: 0;
-        &.over{
-          max-height:200px;
-        }            
-      }
-    }
-    .ul.over {
-      max-height: 300px; /* 필요에 따라 높이를 조정 */
-      overflow: hidden;
-    }
-  }
-
-  a:hover{
-    color:#006838 !important; //대메뉴활성화
-  }
-}
