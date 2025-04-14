@@ -55,7 +55,7 @@ body, #headerwarp {
 #gNavi.gNavi > ul:hover ul {
   height: 250px;
   margin: 0 0px;
-  background-color: var(--light-blue, #dbebf6) !important;
+  background-color: #558ccf !important;
   transition: all 0.5s;
   white-space: nowrap;
   padding-top: 10px;
@@ -910,10 +910,6 @@ button.slick-prev, button.slick-next {
 
 #gNavi.gNavi > ul > li#gNaviNum0:hover {
   background-color: #558ccf;
-}
-
-#gNavi.gNavi > ul > li#gNaviNum0:hover a {
-  background-color: white !important;
 }
 
 #gNavi.gNavi > ul > li#gNaviNum0:hover > ul {
