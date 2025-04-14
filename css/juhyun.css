@@ -16,7 +16,7 @@ body, #headerwarp {
   display: none !important;
 }
 
-#headersub .web_logo {
+.web_logo.active-hover {
   background-color: #558CCF;
 }
 
