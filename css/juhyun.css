@@ -19,9 +19,6 @@ body, #headerwarp {
 #gNavi.gNavi {
   margin: 0px 0px !important;
 }
-#gNavi.gNavi > ul {
-  position: relative;
-}
 #gNavi.gNavi > ul:after {
   content: "";
   position: absolute;
@@ -42,16 +39,13 @@ body, #headerwarp {
   transition: 0.5s;
 }
 #gNavi.gNavi > ul:hover {
-  margin-left: -50px; /* 왼쪽으로 벌어짐 */
-  background-color: #66ac25; /* 바탕색 변경 */
-}
-#gNavi.gNavi > ul:hover::before {
-  height: 300px;
+  margin: 0 -50px;
   background-color: #66ac25;
 }
+#gNavi.gNavi > ul:hover::before,
 #gNavi.gNavi > ul:hover ul {
   height: 300px;
-  margin-left: -50px; /* 서브 메뉴도 왼쪽으로 벌어짐 */
+  margin: 0 -50px;
   background-color: #66ac25;
 }
 #gNavi.gNavi > ul ul {
@@ -74,11 +68,6 @@ body, #headerwarp {
   font-family: "Paperlogy 3 Light";
   padding: 7px 0px !important;
   text-align: start;
-}
-#gNavi.gNavi > ul ul li:hover {
-  background-color: #558CCF; /* li 호버 시 바탕색 변경 */
-  color: #fff; /* 텍스트 색상 변경 */
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 #gNavi.gNavi > ul > li > a {
   font-family: "Paperlogy 6 SemiBold" !important;
@@ -107,6 +96,10 @@ body, #headerwarp {
 #gNavi #gNaviNum0 a {
   color: #F17522 !important;
   font-family: "Paperlogy-8ExtraBold" !important;
+}
+
+#headerwarp .cssmenu {
+  justify-content: end !important;
 }
 
 #bodyTable ul.image-list_center {
