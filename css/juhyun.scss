@@ -50,6 +50,9 @@ body, #headerwarp{
                 li{
                     padding: 0 5rem !important;
                     transition: all 0.5s;
+                    &li{
+                        padding: 1rem !important;
+                    }
                 }
                 &::before,
                 ul{
