@@ -268,6 +268,7 @@ body, #headerwarp{
                 align-items: center;
                 background: var(--Color-2, #DBEBF6);
                 width: 100%;
+                margin-bottom: auto;
 
                 .quick-img {
                     display: flex;
@@ -296,6 +297,7 @@ body, #headerwarp{
             bottom: 0;
             gap: 15px;
             align-items: center;
+            margin-bottom: 20px;
 
             .quick-btn {
                 background: none;
@@ -714,6 +716,7 @@ button.slick-prev, button.slick-next {
             padding: 0;
             width: 655px !important;
             overflow: hidden !important;
+            left: auto;
         }
 
         .slick-track {
@@ -843,7 +846,7 @@ button.slick-prev, button.slick-next {
 
 //퀵버튼//
 #green19_82309 .quick-bottom .quick-btn img{
-    width: 44px!important;
+    width: 30px!important;
     height: 44px!important;
    
 }
