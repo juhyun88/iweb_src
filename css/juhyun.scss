@@ -46,7 +46,7 @@ body, #headerwarp{
             }
             &:hover{
                 margin: 0 -50px;
-                background-color: #558CCF;
+                background-color: #DBEBF6 !important;
                 li{
                     padding: 0 5rem !important;
                     transition: all 0.5s;
@@ -57,7 +57,7 @@ body, #headerwarp{
                 ul{
                     height: 250px;
                     margin: 0 0px;
-                    background-color: #66ac25;
+                    background-color: #DBEBF6 !important;
                     transition: all 0.5s;
                     white-space: nowrap;
                     padding-top: 10px;
@@ -101,7 +101,7 @@ body, #headerwarp{
                     transform: translate3d(-50%, 0, 0);
                     width: 0;
                     height: 4px;
-                    background: #00A2FF;
+                    background: #DBEBF6 !important;
                     width: 106px;
                     
                    }
@@ -951,9 +951,15 @@ button.slick-prev, button.slick-next {
 }
 
 
-#gNavi.gNavi > ul > li#gNaviNum0:hover > {
-    background-color: beige;
+#gNavi.gNavi > ul > li#gNaviNum0:hover {
+    background-color: #558ccf
+}
+#gNavi.gNavi > ul > li#gNaviNum0:hover a {
+    background-color: white !important;
 }
 #gNavi.gNavi > ul > li#gNaviNum0:hover > ul {
-    background-color: beige;
+    background-color: #558ccf
+}
+#gNavi.gNavi > ul > li#gNaviNum0:hover > ul > li {
+   color: white !important;
 }
