@@ -49,17 +49,16 @@ body, #headerwarp {
 #gNavi.gNavi > ul:hover li {
   padding: 0 5rem !important;
   transition: all 0.5s;
-}
-#gNavi.gNavi > ul:hover lili {
-  padding: 1rem !important;
+  margin-bottom: 10px;
 }
 #gNavi.gNavi > ul:hover::before,
 #gNavi.gNavi > ul:hover ul {
-  height: 300px;
+  height: 250px;
   margin: 0 0px;
   background-color: #66ac25;
   transition: all 0.5s;
   white-space: nowrap;
+  padding-top: 10px;
 }
 #gNavi.gNavi > ul ul {
   display: block !important;
@@ -910,9 +909,9 @@ button.slick-prev, button.slick-next {
 }
 
 #gNavi.gNavi > #gNaviNum0:hover a {
-  color: white;
+  color: white !important;
 }
 
 #gNavi.gNavi > #gNaviNum0:hover > li {
-  color: white;
+  color: white !important;
 }
