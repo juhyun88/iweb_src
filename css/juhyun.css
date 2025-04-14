@@ -72,6 +72,20 @@ body, #headerwarp {
   background: #00A2FF;
   width: 106px;
 }
+#gNavi a.sub_mm::before {
+  content: "";
+  display: inline-block;
+  width: 16px; /* 원하는 아이콘 크기 */
+  height: 16px;
+  background-image: url("https://juhyun88.github.io/iweb_src/logoimg/icon1.svg"); /* 이미지 경로 */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 5px; /* 텍스트와 아이콘 사이 간격 */
+  vertical-align: middle;
+}
+#gNavi #gNaviNum0 a {
+  color: #F17522 !important;
+}
 
 #bodyTable ul.image-list_center {
   list-style: none;
