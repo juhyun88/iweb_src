@@ -45,6 +45,9 @@ body, #headerwarp{
             &:hover{
                 margin: 0 -50px;
                 background-color: #66ac25;
+                li{
+                    padding: 0 1rem;
+                }
                 &::before,
                 ul{
                     height: 300px;
