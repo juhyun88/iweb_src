@@ -66,7 +66,8 @@ body, #headerwarp {
   font-size: 15px !important;
   background-color: transparent !important;
   font-family: "Paperlogy 3 Light";
-  padding: 0 50px !important;
+  padding: 7px 0px !important;
+  text-align: start;
 }
 #gNavi.gNavi > ul > li > a {
   font-family: "Paperlogy 6 SemiBold" !important;
@@ -890,4 +891,118 @@ button.slick-prev, button.slick-next {
   height: 85px;
   padding: 0px 4.885px 0.366px 0px;
   background: url("https://juhyun88.github.io/iweb_src/logoimg/logo129.png") center/cover no-repeat;
+}
+
+#gNavi.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+#gNavi.ul:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(208, 219, 213, 0.8901960784);
+  height: 0;
+  transition: 0.5s;
+}
+#gNavi.ul a {
+  color: rgb(14, 13, 13);
+}
+#gNavi.ul a:hover {
+  font-weight: 600;
+}
+#gNavi.ul:hover #gNaviNum0 {
+  padding: 0 1rem;
+}
+@media (min-width: 1024px) {
+  #gNavi.ul:hover:before {
+    height: 280px;
+  }
+  #gNavi.ul:hover .ul {
+    height: 280px !important;
+  }
+}
+#gNavi.ul .li {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#gNavi.ul .li:hover .a {
+  color: #006838 !important;
+}
+#gNavi.ul .li a:hover {
+  color: #ffffff !important;
+  border-radius: 5px;
+}
+#gNavi.ul .li .a {
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Paperlogy 4 Regular";
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  #gNavi.ul .li .a {
+    font-size: 20px;
+  }
+}
+#gNavi.ul .li .ul {
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  width: -moz-max-content;
+  width: max-content;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+}
+#gNavi.ul .li .ul:before {
+  content: "";
+  display: block;
+  height: 4rem;
+}
+#gNavi.ul .li .ul .li {
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2;
+}
+#gNavi.ul .li .ul .li:hover {
+  background-color: #006838; /* 원하는 색상으로 변경 */
+  border-radius: 15px;
+}
+#gNavi.ul .li .ul .li a {
+  text-decoration: none;
+}
+#gNavi.ul .li .ul .li .li #gNaviNum0 a, #gNavi.ul .li .ul .li .li #gNaviNum1 a, #gNavi.ul .li .ul .li .li #gNaviNum2 a, #gNavi.ul .li .ul .li .li #gNaviNum3 a {
+  background-color: #006838;
+}
+@media (max-width: 1024px) {
+  #gNavi.ul .li .ul {
+    position: relative !important;
+    height: auto;
+    max-height: 0;
+  }
+  #gNavi.ul .li .ul.over {
+    max-height: 200px;
+  }
+}
+#gNavi.ul .li .ul.over {
+  max-height: 300px; /* 필요에 따라 높이를 조정 */
+  overflow: hidden;
+}
+#gNavi.ul a:hover {
+  color: #006838 !important;
 }
