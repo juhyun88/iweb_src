@@ -138,12 +138,12 @@ $(function () {
 //상단 메뉴바 색 //
 
 $(document).ready(function(){
-  $('.gNavi > ul > li').hover(
+  $('.gNavi > ul').hover(
     function() {
-      $(this).find('a').addClass('active-hover');
+      $(this).find('.web_logo').addClass('active-hover');
     },
     function() {
-      $(this).find('a').removeClass('active-hover');
+      $(this).find('.web_logo').removeClass('active-hover');
     }
   );
 });

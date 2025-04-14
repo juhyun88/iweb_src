@@ -16,6 +16,10 @@ body, #headerwarp {
   display: none !important;
 }
 
+#headersub .web_logo {
+  background-color: #558CCF;
+}
+
 #gNavi.gNavi {
   margin: 0px 0px !important;
 }
@@ -61,7 +65,7 @@ body, #headerwarp {
   right: 0;
   width: 100% !important;
   position: absolute;
-  left: 0;
+  left: 24px;
   top: 90px;
 }
 #gNavi.gNavi > ul ul li {
@@ -69,7 +73,7 @@ body, #headerwarp {
   font-size: 15px !important;
   background-color: transparent !important;
   font-family: "Paperlogy 3 Light";
-  padding: 7px 0px !important;
+  padding: 8px 56px !important;
   text-align: start;
 }
 #gNavi.gNavi > ul > li > a {
