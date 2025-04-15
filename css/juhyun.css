@@ -78,6 +78,7 @@ body, #headerwarp {
   position: absolute;
   left: 0px;
   top: 90px;
+  white-space: nowrap;
 }
 #gNavi.gNavi > ul ul li {
   display: block !important;
