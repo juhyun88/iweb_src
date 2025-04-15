@@ -950,20 +950,26 @@ button.slick-prev, button.slick-next {
 }
 
 //상단 바 메뉴 색상 변경//
-#gNavi.gNavi > ul >
- li#gNaviNum0:hover,
- li#gNaviNum1:hover, 
- li#gNaviNum2:hover,
-  li#gNaviNum3:hover {
-        background-color: #558ccf
-}
-#gNavi.gNavi > ul >
- li#gNaviNum0:hover a,
- li#gNaviNum1:hover a,
- li#gNaviNum2:hover a,
- li#gNaviNum3:hover a {
-    color: white !important;
-}
+#gNavi.gNavi {
+    > ul {
+      @for $i from 0 through 3 {
+        > li#gNaviNum#{$i}:hover {
+          background-color: #558ccf;
+        }
+      }
+    }
+  }
+  #gNavi.gNavi {
+    > ul {
+      @for $i from 0 through 3 {
+        > li#gNaviNum#{$i}:hover {
+          a {
+            color: white !important;
+          }
+        }
+      }
+    }
+  }
 #gNavi.gNavi > ul >
  li#gNaviNum0:hover,
  li#gNaviNum1:hover,
