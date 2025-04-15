@@ -3,6 +3,10 @@ body, #headerwarp {
   min-width: 1920px !important;
 }
 
+#headerwarp .header_box {
+  background-color: transparent !important;
+}
+
 #green19_80662 {
   display: flex !important;
   justify-content: center !important;
