@@ -3,6 +3,11 @@ body, #headerwarp{
 }
 #headerwarp{
     background-color: white;
+    transition: 0.5s;
+    &.active-hover{
+        background-color: var(--light-blue, #dbebf6)!important;
+    }
+
     .header_box{
           background-color: transparent !important;
     }
@@ -28,15 +33,14 @@ body, #headerwarp{
     }
 }
 
-.active-hover{
-    background-color: var(--light-blue, #dbebf6)!important;
-}
+
 
 #gNavi{
 
     &.gNavi{
        margin: 0px 0px !important;
         > ul{
+            
             &:after{
                 // content: "";
                 position: absolute;
@@ -53,25 +57,20 @@ body, #headerwarp{
                 left: 0;    
                 width: 100%;
                 height: 0;
-                background-color: var(--light-blue, #dbebf6)!important;
+                // background-color: var(--light-blue, #dbebf6)!important;
+                background-color: red;
                 transition: 0.5s;
             }
-            &:hover{
-                margin: 0 -50px;
-                background-color: var(--light-blue, #dbebf6)!important;
-                li{
-                    padding: 0 5rem !important;
-                    transition: all 0.5s;
-                    margin-bottom: 10px;
+            &:hover{              
+               
+                >li{
+                    padding: 0 3rem !important;                  
+                  
                
                 }
                 &::before,
                 ul{
                     height: 250px;
-                    margin: 0 0px;
-                    transition: all 0.5s;
-                    white-space: nowrap;
-                    padding-top: 10px;
                 }
             }
             ul{
@@ -86,7 +85,7 @@ body, #headerwarp{
                 position: absolute;
                 left: 0px;
                 top: 90px;
-                white-space: nowrap;
+               
 
                 li{
                     display: block !important;
@@ -95,6 +94,7 @@ body, #headerwarp{
                     font-family: "Paperlogy";
                     font-weight: 300 !important;
                     padding:8px 0px !important;
+                    white-space: nowrap;
 
                 }
             }
