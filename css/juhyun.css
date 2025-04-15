@@ -16,7 +16,7 @@ body, #headerwarp {
   display: none !important;
 }
 
-.web_logo.active-hover {
+.active-hover {
   background-color: var(--light-blue, #dbebf6) !important;
 }
 
@@ -598,6 +598,33 @@ button.slick-prev, button.slick-next {
     opacity: 0;
   }
 }
+.slick-list {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.slick-slide .slick-active {
+  width: auto !important;
+}
+
+.slick-slide img {
+  width: 200px;
+}
+
+.slick-current .doctor-item .text-img {
+  display: block;
+}
+
+.slick-arrow.slick-next::after {
+  left: -60% !important;
+}
+
+.slick-arrow.slick-next::before {
+  left: -165% !important;
+}
+
 #green19_82116 {
   height: 413px;
 }
@@ -728,7 +755,7 @@ button.slick-prev, button.slick-next {
   background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-next::after {
-  left: -65px !important;
+  left: 50% !important;
   background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-prev::before {
@@ -737,7 +764,7 @@ button.slick-prev, button.slick-next {
   background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-next::before {
-  left: -65px !important;
+  left: 50% !important;
   background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-list {
@@ -849,21 +876,6 @@ button.slick-prev, button.slick-next {
 }
 .youtobe_section_img .slick-next {
   right: -60px; /* 다음 버튼 위치 */
-}
-
-.slick-list {
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  overflow: hidden !important;
-}
-
-.slick-slide .slick-active {
-  width: auto !important;
-}
-
-.slick-slide img {
-  width: 200px;
 }
 
 #green19_82309 .quick-bottom .quick-btn img {

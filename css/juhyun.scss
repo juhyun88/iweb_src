@@ -16,7 +16,7 @@ body, #headerwarp{
     }
 }
 
-.web_logo.active-hover{
+.active-hover{
     background-color: var(--light-blue, #dbebf6)!important;
 }
 
@@ -598,6 +598,31 @@ button.slick-prev, button.slick-next {
 		opacity: 0; 
 	}
 }
+.slick-list {
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+
+
+.slick-slide .slick-active {
+    width: auto !important;
+}
+.slick-slide img{
+    width: 200px;
+}
+
+.slick-current .doctor-item .text-img {
+    display: block;
+}
+.slick-arrow.slick-next::after{
+    left: -60% !important;
+}
+.slick-arrow.slick-next::before{
+    left: -165% !important;
+}
 
 //게시판 부분//
 #green19_82116 {
@@ -743,7 +768,7 @@ button.slick-prev, button.slick-next {
                 background-color: #f17522 !important;
             }
             .slick-arrow.slick-next::after{
-                left: -65px !important;
+                left: 50% !important;
                 background-color: #f17522 !important;
             }
             .slick-arrow.slick-prev::before{
@@ -752,7 +777,7 @@ button.slick-prev, button.slick-next {
                 background-color: #f17522 !important;
             }
             .slick-arrow.slick-next::before{
-                left: -65px !important;
+                left: 50% !important;
                 background-color: #f17522 !important;
             }
         }
@@ -883,23 +908,6 @@ button.slick-prev, button.slick-next {
         right: -60px; /* 다음 버튼 위치 */
     }
 }
-
-.slick-list {
-    margin: 0;
-    padding: 0;
-    width: 100% !important;
-    overflow: hidden !important;
-}
-
-
-
-.slick-slide .slick-active {
-    width: auto !important;
-}
-.slick-slide img{
-    width: 200px;
-}
-
 //퀵버튼//
 #green19_82309 .quick-bottom .quick-btn img{
     width: 30px!important;

@@ -143,7 +143,7 @@ $(document).ready(function(){
         $(this).closest('#headersub').find('.web_logo').addClass('active-hover');
     },
     function() {
-        $(this).closest('#headersub').find('.web_logo').addClass('active-hover');
+        $(this).closest('#headersub').find('.web_logo').removeClass('active-hover');
     }
   );
 });
