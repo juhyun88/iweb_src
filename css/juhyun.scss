@@ -26,6 +26,7 @@ body, #headerwarp{
         + div{
             display: none !important;
         }
+        margin: -20px !important;
     }
 
     #green19_81348{
@@ -870,7 +871,12 @@ button.slick-prev, button.slick-next {
     display: flex !important;
     align-items: center;
     justify-content: center;
-    right: 135px;
+
+.slick-list .slick-track{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    }
     
    
     .img1,
@@ -912,21 +918,21 @@ button.slick-prev, button.slick-next {
         height: 50px;
     }
     .slick-arrow.slick-prev::after{
-        left: 275px !important;
+       
         width: 2px !important ;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::after{
-        left: 130% !important;
+        left: -13% !important;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-prev::before{
-        left: 275px !important;
+       
         width: 2px !important ;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::before{
-        left: 130% !important;
+        left: -15% !important;
         background-color: #f17522 !important;
     }
 
@@ -1059,6 +1065,7 @@ button.slick-prev, button.slick-next {
     background-color: white;
     transition: all 0.4s ease;
     margin:auto; 
+    right: 0;
     }
     &:hover::after {
       width: calc(100% - 30px);

@@ -21,6 +21,9 @@ body, #headerwarp {
 #blockWrap #green19_82324 + div {
   display: none !important;
 }
+#blockWrap #green19_82661 {
+  margin: -20px !important;
+}
 #blockWrap #green19_82661 + div {
   display: none !important;
 }
@@ -826,7 +829,11 @@ button.slick-prev, button.slick-next {
   display: flex !important;
   align-items: center;
   justify-content: center;
-  right: 135px;
+}
+.youtobe_section_img .slick-list .slick-track {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 .youtobe_section_img .img1,
 .youtobe_section_img .img2,
@@ -863,21 +870,19 @@ button.slick-prev, button.slick-next {
   height: 50px;
 }
 .youtobe_section_img .slick-arrow.slick-prev::after {
-  left: 275px !important;
   width: 2px !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow.slick-next::after {
-  left: 130% !important;
+  left: -13% !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow.slick-prev::before {
-  left: 275px !important;
   width: 2px !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow.slick-next::before {
-  left: 130% !important;
+  left: -15% !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-prev {
@@ -1010,6 +1015,7 @@ li#gNaviNum3 {
   background-color: white;
   transition: all 0.4s ease;
   margin: auto;
+  right: 0;
 }
 #gNavi.gNavi > ul > li:hover::after {
   width: calc(100% - 30px);
