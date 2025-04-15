@@ -480,44 +480,32 @@ body, #headerwarp{
     height: 500px; /* Increased size */
 }
 
-.item01 .doctor-cir{
-    position: relative;
- .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor1.jpg") center/cover no-repeat;
-    position: relative;
-}
-.overlay-img {
-    position: absolute; /* 부모 요소를 기준으로 배치 */
-    top: 50%; /* 세로 가운데 정렬 */
-    right: 10px; /* 오른쪽에 배치 */
-    transform: translateY(-50%); /* 세로 가운데 정렬 보정 */
-    width: 100px; /* 추가 이미지 크기 */
-    height: 100px; /* 추가 이미지 크기 */
-    background: url("https://juhyun88.github.io/iweb_src/doctor/의사설명김우태.jpg") center/cover no-repeat;
-}
-}
-.item02 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor2.jpg") center/cover no-repeat;
-}
+@for $i from 1 through 7 {
+    .item#{$i} .doctor-cir {
+        position: relative;
+        background: url("https://juhyun88.github.io/iweb_src/doctor/background#{$i}.jpg") center/cover no-repeat; /* 각 아이템의 배경 이미지 */
+        width: 400px; /* 기본 크기 */
+        height: 450px; /* 기본 크기 */
+        margin: 0 15px;
+        transition: all 0.4s ease-in-out;
 
-.item03 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor3.jpg") center/cover no-repeat;
-}
+        .img {
+            background: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg") center/cover no-repeat; /* 각 아이템의 메인 이미지 */
+            width: 300px; /* 메인 이미지 크기 */
+            height: 100%; /* 부모 높이에 맞춤 */
+            position: relative;
+        }
 
-.item04 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor4.png") center/cover no-repeat;
-}
-
-.item05 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor5.jpg") center/cover no-repeat;
-}
-
-.item06 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor6.jpg") center/cover no-repeat;
-}
-
-.item07 .doctor-cir .img {
-    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor7.jpg") center/cover no-repeat;
+        .overlay-img {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            width: 100px;
+            height: 100px;
+            background: url("https://juhyun88.github.io/iweb_src/doctor/overlay#{$i}.jpg") center/cover no-repeat; /* 각 아이템의 오버레이 이미지 */
+        }
+    }
 }
 
 .doctor-cir,
@@ -567,11 +555,34 @@ button.slick-prev, button.slick-next {
     height: 100%; /* 이미지를 부모 크기에 맞게 설정 */
 }
 @for $i from 1 through 7 {
-    .slick-current .doctor-item.item#{$i} .doctor-cir .img {
-        background-image: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg");
+    .slick-current .doctor-item.item#{$i} .doctor-cir {
+        background-image: url("https://juhyun88.github.io/iweb_src/doctor/background#{$i}.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        position: relative;
+
+        .img {
+            background-image: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 300px;
+            height: 100%;
+        }
+
+        .overlay-img {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            width: 100px;
+            height: 100px;
+            background-image: url("https://juhyun88.github.io/iweb_src/doctor/overlay#{$i}.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
     }
 }
 .slick-arrow::before{
