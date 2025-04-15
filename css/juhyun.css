@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body, #headerwarp {
-  min-width: 1500px !important;
+  min-width: 1920px !important;
 }
 
 #green19_80662 {
@@ -79,15 +79,17 @@ body, #headerwarp {
   display: block !important;
   font-size: 15px !important;
   background-color: transparent !important;
-  font-family: "Paperlogy 3 Light";
+  font-family: "Paperlogy";
+  font-weight: 300 !important;
   padding: 8px 0px !important;
 }
 #gNavi.gNavi > ul > li {
-  padding: 0 20px !important;
+  padding: 0px !important;
 }
 #gNavi.gNavi > ul > li > a {
-  font-family: "Paperlogy 6 SemiBold" !important;
-  padding: 0px 15px !important;
+  font-family: "Paperlogy" !important;
+  font-weight: 600 !important;
+  padding: 0px 30px !important;
 }
 #gNavi.gNavi > ul > li > a.active:after {
   content: "";
@@ -112,7 +114,8 @@ body, #headerwarp {
 }
 #gNavi #gNaviNum0 a {
   color: #F17522 !important;
-  font-family: "Paperlogy-8ExtraBold" !important;
+  font-family: "Paperlogy" !important;
+  font-weight: 800 !important;
 }
 
 #headerwarp .cssmenu {
