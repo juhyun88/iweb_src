@@ -49,7 +49,7 @@ body, #headerwarp {
   background-color: red;
   transition: 0.5s;
 }
-#gNavi.gNavi > ul:hover > li {
+#gNavi.gNavi > ul:hover > li > a {
   padding: 0 3rem !important;
 }
 #gNavi.gNavi > ul:hover::before,
@@ -59,7 +59,6 @@ body, #headerwarp {
 #gNavi.gNavi > ul ul {
   display: block !important;
   min-width: 115px;
-  transform: translateX(0) !important;
   height: 0;
   overflow: hidden;
   transition: 0.5s;
@@ -68,6 +67,7 @@ body, #headerwarp {
   position: absolute;
   left: 0px;
   top: 90px;
+  line-height: 2;
 }
 #gNavi.gNavi > ul ul li {
   display: block !important;
@@ -85,6 +85,7 @@ body, #headerwarp {
   font-family: "Paperlogy" !important;
   font-weight: 600 !important;
   padding: 0px 30px !important;
+  transition: 0.5s;
 }
 #gNavi.gNavi > ul > li > a.active:after {
   content: "";
