@@ -446,7 +446,7 @@ body, #headerwarp{
     overflow: visible;
 }
 
-.doctor-item {
+#green19_78758 .doctor-item {
     float: left;
     width: calc(20% - 20px);
     margin: 0 -55px;
@@ -455,8 +455,13 @@ body, #headerwarp{
 .doctor-cir {
     position: relative;
     margin: 0 auto;
-    width: 500px; /* Increased size */
-    height: 550px; /* Increased size */
+    width: 400px;
+    height: 450px;
+    transition: all 0.4s ease-in-out;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .doctor-cir .inner {
@@ -470,42 +475,53 @@ body, #headerwarp{
 }
 
 .doctor-cir .img {
+    width: 300px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.text-img {
     position: absolute;
-    top: 0;
     right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    width: 500px; /* Increased size */
-    height: 500px; /* Increased size */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.6); /* 배경색 */
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    white-space: nowrap;
 }
 
-@for $i from 1 through 7 {
-    .item#{$i} .doctor-cir {
-        position: relative;
-        background: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg") center/cover no-repeat; /* 각 아이템의 배경 이미지 */
-        width: 400px; /* 기본 크기 */
-        height: 450px; /* 기본 크기 */
-        margin: 0 15px;
-        transition: all 0.4s ease-in-out;
+.item01 .doctor-cir{
+ .img {
+    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor1.jpg") center/cover no-repeat;
+}
+}
+.item02 .doctor-cir .img {
+    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor2.jpg") center/cover no-repeat;
+}
 
-        .img {
-            background: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg") center/cover no-repeat; /* 각 아이템의 메인 이미지 */
-            width: 300px; /* 메인 이미지 크기 */
-            height: 100%; /* 부모 높이에 맞춤 */
-            position: relative;
-        }
+.item03 .doctor-cir .img {
+    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor3.jpg") center/cover no-repeat;
+}
 
-        .overlay-img {
-            position: absolute;
-            top: 50%;
-            right: 10px;
-            transform: translateY(-50%);
-            width: 100px;
-            height: 100px;
-            background: url("https://juhyun88.github.io/iweb_src/docto/의사설명김우태/overlay#{$i}.pg") center/cover no-repeat; /* 각 아이템의 오버레이 이미지 */
-        }
-    }
+.item04 .doctor-cir .img {
+    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor4.png") center/cover no-repeat;
+}
+
+.item05 .doctor-cir .img {
+    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor5.jpg") center/cover no-repeat;
+}
+
+.item06 .doctor-cir .img {
+    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor6.jpg") center/cover no-repeat;
+}
+
+.item07 .doctor-cir .img {
+    background: url("https://juhyun88.github.io/iweb_src/doctor/doctor7.jpg") center/cover no-repeat;
 }
 
 .doctor-cir,
@@ -555,34 +571,11 @@ button.slick-prev, button.slick-next {
     height: 100%; /* 이미지를 부모 크기에 맞게 설정 */
 }
 @for $i from 1 through 7 {
-    .slick-current .doctor-item.item#{$i} .doctor-cir {
-        background-image: url("https://juhyun88.github.io/iweb_src/doctor/background#{$i}.jpg");
+    .slick-current .doctor-item.item#{$i} .doctor-cir .img {
+        background-image: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        position: relative;
-
-        .img {
-            background-image: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: 300px;
-            height: 100%;
-        }
-
-        .overlay-img {
-            position: absolute;
-            top: 50%;
-            right: 10px;
-            transform: translateY(-50%);
-            width: 100px;
-            height: 100px;
-            background-image: url("https://juhyun88.github.io/iweb_src/doctor/overlay#{$i}.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
     }
 }
 .slick-arrow::before{
