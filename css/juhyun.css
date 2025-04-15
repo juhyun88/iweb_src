@@ -3,6 +3,9 @@ body, #headerwarp {
   min-width: 1920px !important;
 }
 
+#headerwarp {
+  background-color: white;
+}
 #headerwarp .header_box {
   background-color: transparent !important;
 }
