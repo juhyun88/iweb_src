@@ -448,13 +448,8 @@ body, #headerwarp {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.6); /* 배경색 */
   color: white;
   padding: 10px 15px;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 8px;
-  white-space: nowrap;
 }
 
 .item01 .doctor-cir .img {
@@ -737,7 +732,7 @@ button.slick-prev, button.slick-next {
   background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-next::after {
-  left: 30% !important;
+  left: -65px !important;
   background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-prev::before {
@@ -746,7 +741,7 @@ button.slick-prev, button.slick-next {
   background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .rightsection_img .slick-arrow.slick-next::before {
-  left: 30% !important;
+  left: -65px !important;
   background-color: #f17522 !important;
 }
 #green19_82324 .firstbanner-rightsection .slick-list {
@@ -863,9 +858,8 @@ button.slick-prev, button.slick-next {
 .slick-list {
   margin: 0;
   padding: 0;
-  width: 1225px !important;
+  width: 100% !important;
   overflow: hidden !important;
-  left: 160px;
 }
 
 .slick-slide .slick-active {
