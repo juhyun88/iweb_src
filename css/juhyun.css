@@ -46,7 +46,7 @@ body, #headerwarp {
   left: 0;
   width: 100%;
   height: 0;
-  background-color: red;
+  background-color: var(--light-blue, #dbebf6) !important;
   transition: 0.5s;
 }
 #gNavi.gNavi > ul:hover > li > a {
@@ -69,6 +69,11 @@ body, #headerwarp {
   top: 90px;
   line-height: 2;
 }
+#gNavi.gNavi > ul ul:before {
+  content: "";
+  display: block;
+  height: 15px;
+}
 #gNavi.gNavi > ul ul li {
   display: block !important;
   font-size: 15px !important;
@@ -86,17 +91,18 @@ body, #headerwarp {
   font-weight: 600 !important;
   padding: 0px 30px !important;
   transition: 0.5s;
+  width: auto !important;
 }
 #gNavi.gNavi > ul > li > a.active:after {
   content: "";
   position: absolute;
   bottom: 1px;
-  left: 50%;
-  transform: translate3d(-50%, 0, 0);
-  width: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   height: 4px;
   background: var(--light-blue, #dbebf6) !important;
-  width: 106px;
+  width: calc(100% - 16px);
 }
 #gNavi #gNaviNum0 a.sub_mm::before {
   display: inline-block;
