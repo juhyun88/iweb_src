@@ -1000,27 +1000,39 @@ button.slick-prev, button.slick-next {
 }
 
 //상단 밑줄//
-#gNavi.gNavi > ul > li#gNaviNum0 {
-    display: inline-block;
-    position: relative;
-    color: #000;
-    font-size: 24px;
-    cursor: pointer;
+#gNavi.gNavi > ul >
+        li#gNaviNum0,
+        li#gNaviNum1,
+        li#gNaviNum2,
+        li#gNaviNum3 {
+            display: inline-block;
+            position: relative;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
   }
 
-  #gNavi.gNavi > ul > li#gNaviNum0::after {
+  #gNavi.gNavi > ul > 
+  li#gNaviNum0::after,
+  li#gNaviNum1::after,
+  li#gNaviNum2::after,
+  li#gNaviNum3::after {
     content: '';
     position: absolute;
     left: 50%;
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: #000;
+    background-color: white;
     transition: all 0.4s ease;
     transform: translateX(-50%);
     transform-origin: center;
   }
 
-  #gNavi.gNavi > ul > li#gNaviNum0:hover::after {
+  #gNavi.gNavi > ul >
+   li#gNaviNum0:hover::after, 
+   li#gNaviNum1:hover::after,
+   li#gNaviNum2:hover::after,
+   li#gNaviNum3:hover::after {
     width: 100%;
   }
