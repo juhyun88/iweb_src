@@ -140,10 +140,10 @@ $(function () {
 $(document).ready(function(){
   $('.gNavi > ul').hover(
     function() {
-        $(this).closest('#headersub').find('.web_logo').addClass('active-hover');
+        $('#headerwarp').addClass('active-hover');
     },
     function() {
-        $(this).closest('#headersub').find('.web_logo').removeClass('active-hover');
+        $('#headerwarp').removeClass('active-hover');
     }
   );
 });
