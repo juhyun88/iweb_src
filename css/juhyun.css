@@ -16,6 +16,10 @@ body, #headerwarp {
   display: none !important;
 }
 
+#green19_81348 {
+  margin-top: -20px !important;
+}
+
 .active-hover {
   background-color: var(--light-blue, #dbebf6) !important;
 }
@@ -24,7 +28,6 @@ body, #headerwarp {
   margin: 0px 0px !important;
 }
 #gNavi.gNavi > ul:after {
-  content: "";
   position: absolute;
   top: 100%;
   left: 0;
