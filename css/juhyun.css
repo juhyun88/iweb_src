@@ -970,3 +970,28 @@ button.slick-prev, button.slick-next {
 #gNavi.gNavi > ul > li#gNaviNum3:hover > ul > li {
   color: white !important;
 }
+
+#gNavi.gNavi > ul > li#gNaviNum0 {
+  display: inline-block;
+  position: relative;
+  color: #000;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#gNavi.gNavi > ul > li#gNaviNum0::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.4s ease;
+  transform: translateX(-50%);
+  transform-origin: center;
+}
+
+#gNavi.gNavi > ul > li#gNaviNum0:hover::after {
+  width: 100%;
+}
