@@ -480,10 +480,22 @@ body, #headerwarp{
     height: 500px; /* Increased size */
 }
 
-.item01 .doctor-cir .img {
+.item01 .doctor-cir{
+    position: relative;
+ .img {
     background: url("https://juhyun88.github.io/iweb_src/doctor/doctor1.jpg") center/cover no-repeat;
+    position: relative;
 }
-
+.overlay-img {
+    position: absolute; /* 부모 요소를 기준으로 배치 */
+    top: 50%; /* 세로 가운데 정렬 */
+    right: 10px; /* 오른쪽에 배치 */
+    transform: translateY(-50%); /* 세로 가운데 정렬 보정 */
+    width: 100px; /* 추가 이미지 크기 */
+    height: 100px; /* 추가 이미지 크기 */
+    background: url("https://juhyun88.github.io/iweb_src/doctor/의사설명김우태.jpg") center/cover no-repeat;
+}
+}
 .item02 .doctor-cir .img {
     background: url("https://juhyun88.github.io/iweb_src/doctor/doctor2.jpg") center/cover no-repeat;
 }
