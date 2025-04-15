@@ -426,10 +426,6 @@ body, #headerwarp{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.doctor-area {
-    padding: 0 5.6%;
-}
-
 .doctor-list-pc {
     display: block;
 }
@@ -900,7 +896,9 @@ button.slick-prev, button.slick-next {
 .slick-slide .slick-active {
     width: auto !important;
 }
-
+.slick-slide img{
+    width: 200px;
+}
 
 //퀵버튼//
 #green19_82309 .quick-bottom .quick-btn img{
