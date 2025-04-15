@@ -933,17 +933,28 @@ button.slick-prev, button.slick-next {
   color: white !important;
 }
 
-#gNavi.gNavi > ul > li#gNaviNum0:hover,
-li#gNaviNum1:hover,
-li#gNaviNum2:hover,
-li#gNaviNum3:hover > ul {
+#gNavi.gNavi > ul > li#gNaviNum0:hover > ul {
   background-color: #558ccf;
 }
-
-#gNavi.gNavi > ul > li#gNaviNum0:hover,
-li#gNaviNum1:hover,
-li#gNaviNum2:hover,
-li#gNaviNum3:hover > ul > li {
+#gNavi.gNavi > ul > li#gNaviNum0:hover > ul > li {
+  color: white !important;
+}
+#gNavi.gNavi > ul > li#gNaviNum1:hover > ul {
+  background-color: #558ccf;
+}
+#gNavi.gNavi > ul > li#gNaviNum1:hover > ul > li {
+  color: white !important;
+}
+#gNavi.gNavi > ul > li#gNaviNum2:hover > ul {
+  background-color: #558ccf;
+}
+#gNavi.gNavi > ul > li#gNaviNum2:hover > ul > li {
+  color: white !important;
+}
+#gNavi.gNavi > ul > li#gNaviNum3:hover > ul {
+  background-color: #558ccf;
+}
+#gNavi.gNavi > ul > li#gNaviNum3:hover > ul > li {
   color: white !important;
 }
 
