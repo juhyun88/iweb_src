@@ -7,20 +7,17 @@ body, #headerwarp {
   background-color: transparent !important;
 }
 
-#green19_80662 {
+#blockWrap #green19_80662 {
   display: flex !important;
   justify-content: center !important;
 }
-
-#green19_82324 + div {
+#blockWrap #green19_82324 + div {
   display: none !important;
 }
-
-#green19_82661 + div {
+#blockWrap #green19_82661 + div {
   display: none !important;
 }
-
-#green19_81348 {
+#blockWrap #green19_81348 {
   margin-top: -20px !important;
 }
 

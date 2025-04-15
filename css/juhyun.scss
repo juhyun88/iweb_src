@@ -6,22 +6,26 @@ body, #headerwarp{
           background-color: transparent !important;
     }
 }
-#green19_80662{
-    display: flex !important;
-    justify-content: center !important;
-}
-#green19_82324{
-    + div{
-        display: none !important;
+#blockWrap{
+    #green19_80662{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    #green19_82324{
+        + div{
+            display: none !important;
+        }
+    }
+    #green19_82661{
+        + div{
+            display: none !important;
+        }
+    }
+
+    #green19_81348{
+        margin-top:-20px !important;
     }
 }
-#green19_82661{
-    + div{
-        display: none !important;
-    }
-}
-#green19_81348{
-    margin-top:-20px !important;}
 
 .active-hover{
     background-color: var(--light-blue, #dbebf6)!important;
