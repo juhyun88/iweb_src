@@ -68,6 +68,7 @@ body, #headerwarp {
   left: 0px;
   top: 90px;
   line-height: 2;
+  transform: translateX(0);
 }
 #gNavi.gNavi > ul ul:before {
   content: "";
