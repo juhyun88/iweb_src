@@ -483,7 +483,7 @@ body, #headerwarp{
 @for $i from 1 through 7 {
     .item#{$i} .doctor-cir {
         position: relative;
-        background: url("https://juhyun88.github.io/iweb_src/doctor/background#{$i}.jpg") center/cover no-repeat; /* 각 아이템의 배경 이미지 */
+        background: url("https://juhyun88.github.io/iweb_src/doctor/doctor#{$i}.jpg") center/cover no-repeat; /* 각 아이템의 배경 이미지 */
         width: 400px; /* 기본 크기 */
         height: 450px; /* 기본 크기 */
         margin: 0 15px;
@@ -503,7 +503,7 @@ body, #headerwarp{
             transform: translateY(-50%);
             width: 100px;
             height: 100px;
-            background: url("https://juhyun88.github.io/iweb_src/doctor/overlay#{$i}.jpg") center/cover no-repeat; /* 각 아이템의 오버레이 이미지 */
+            background: url("https://juhyun88.github.io/iweb_src/docto/의사설명김우태/overlay#{$i}.pg") center/cover no-repeat; /* 각 아이템의 오버레이 이미지 */
         }
     }
 }
