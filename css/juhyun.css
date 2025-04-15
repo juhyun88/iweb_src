@@ -1000,25 +1000,17 @@ li#gNaviNum3 {
   cursor: pointer;
 }
 
-#gNavi.gNavi > ul > li#gNaviNum0::after,
-li#gNaviNum1::after,
-li#gNaviNum2::after,
-li#gNaviNum3::after {
+#gNavi.gNavi > ul > li::after {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 0;
   bottom: 0;
   width: 0;
-  height: 2px;
+  height: 1px;
   background-color: white;
   transition: all 0.4s ease;
-  transform: translateX(-50%);
-  transform-origin: center;
+  margin: auto;
 }
-
-#gNavi.gNavi > ul > li#gNaviNum0:hover::after,
-li#gNaviNum1:hover::after,
-li#gNaviNum2:hover::after,
-li#gNaviNum3:hover::after {
-  width: 100%;
+#gNavi.gNavi > ul > li:hover::after {
+  width: calc(100% - 30px);
 }
