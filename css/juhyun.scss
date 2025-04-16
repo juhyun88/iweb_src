@@ -605,12 +605,6 @@ button.slick-prev, button.slick-next {
         background-repeat: no-repeat;
     }
 }
-.slick-arrow::before{
-    background-color: #F17522 !important
-}
-.slick-arrow::after{
-    background-color: #F17522 !important
-}
 
 .slick-current .doctor-item .doctor-cir > span:nth-child(2) {
     -webkit-animation-delay: 0.3s;
@@ -653,6 +647,12 @@ button.slick-prev, button.slick-next {
 .slick-current .doctor-item .text-img {
     display: block;
 }
+.slick-arrow::before{
+    background-color: #F17522 !important
+}
+.slick-arrow::after{
+    background-color: #F17522 !important
+}
 .slick-arrow.slick-next::after{
     left: -60% !important;
 }
@@ -665,6 +665,14 @@ button.slick-prev, button.slick-next {
 .slick-arrow.slick-prev::before{
     left: -165% !important;
 }
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+}
 
 //게시판 부분//
 #green19_82116 {
@@ -673,9 +681,9 @@ button.slick-prev, button.slick-next {
     margin-bottom: -20px !important;
     justify-content: space-between;
      width: 1364px !important;
-     .box_{
-        margin-right: 200px !important;
-     }
+     div:nth-of-type(2).box_ {
+        margin-left: 160px !important;
+      }
     .boardHead{
         border-bottom: 1px solid var(--Main, #F17522) !important;
         padding-top: 20px !important;

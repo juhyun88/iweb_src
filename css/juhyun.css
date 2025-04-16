@@ -590,14 +590,6 @@ button.slick-prev, button.slick-next {
   background-repeat: no-repeat;
 }
 
-.slick-arrow::before {
-  background-color: #F17522 !important;
-}
-
-.slick-arrow::after {
-  background-color: #F17522 !important;
-}
-
 .slick-current .doctor-item .doctor-cir > span:nth-child(2) {
   animation-delay: 0.3s;
 }
@@ -635,6 +627,14 @@ button.slick-prev, button.slick-next {
   display: block;
 }
 
+.slick-arrow::before {
+  background-color: #F17522 !important;
+}
+
+.slick-arrow::after {
+  background-color: #F17522 !important;
+}
+
 .slick-arrow.slick-next::after {
   left: -60% !important;
 }
@@ -651,6 +651,15 @@ button.slick-prev, button.slick-next {
   left: -165% !important;
 }
 
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+}
+
 #green19_82116 {
   height: 385px;
   display: flex;
@@ -658,8 +667,8 @@ button.slick-prev, button.slick-next {
   justify-content: space-between;
   width: 1364px !important;
 }
-#green19_82116 .box_ {
-  margin-right: 200px !important;
+#green19_82116 div:nth-of-type(2).box_ {
+  margin-left: 160px !important;
 }
 #green19_82116 .boardHead {
   border-bottom: 1px solid var(--Main, #F17522) !important;
