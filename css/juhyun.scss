@@ -716,6 +716,8 @@ button.slick-prev, button.slick-next {
 #green19_82324 {
     .banArea {
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .firstbanner-rightsection {
         display: flex;
@@ -853,7 +855,25 @@ button.slick-prev, button.slick-next {
             right: -5px; /* 화살표 위치 조정 */
         }
     }
+    .firstbanner-rightsection:before{
+        content: "";
+        position: absolute;
+        left: 50%;
+        right:0;
+        top:0;
+        bottom:0;
+        background-color: black;
 }
+}
+    .firstbanner-rightsection:before{
+            content: "";
+            position: absolute;
+            left: 50%;
+            right:0;
+            top:0;
+            bottom:0;
+            background-color: black;
+    }
 
 //유튜브 섹션//
 
