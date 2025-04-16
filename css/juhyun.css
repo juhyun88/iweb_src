@@ -462,7 +462,6 @@ body, #headerwarp {
   top: 50%;
   transform: translateY(-50%);
   color: white;
-  padding: 10px 15px;
 }
 
 .item01 .doctor-cir .img {
@@ -505,8 +504,8 @@ body, #headerwarp {
 
 .slick-current .doctor-item .doctor-cir {
   margin-top: -53px;
-  width: 570px; /* 수정 */
-  height: 550px; /* 수정*/
+  width: 590px; /* 수정 */
+  height: 553px; /* 수정*/
   z-index: 2;
   margin-left: -70px;
 }
@@ -518,9 +517,10 @@ body, #headerwarp {
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-  width: 500px; /* 수정*/
-  height: 550px; /* 수정*/
+  width: 350px; /* 수정*/
+  height: 500px; /* 수정*/
   z-index: 1; /* 수정*/
+  margin-top: 53px;
 }
 
 button.slick-prev, button.slick-next {
@@ -529,10 +529,10 @@ button.slick-prev, button.slick-next {
 }
 
 .doctor-item .doctor-cir {
-  width: 400px; /* 기본 이미지 크기 */
+  width: 444px; /* 기본 이미지 크기 */
   height: 450px; /* 기본 이미지 크기 */
   transition: all 0.4s ease-in-out; /* 부드러운 전환 효과 */
-  margin: 0 15px;
+  margin: 50px 15px;
 }
 
 .doctor-item .doctor-cir .img {
@@ -627,7 +627,7 @@ button.slick-prev, button.slick-next {
 }
 
 .slick-slide img {
-  width: 200px;
+  width: 250px;
 }
 
 .slick-current .doctor-item .text-img {

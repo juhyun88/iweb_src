@@ -516,7 +516,6 @@ margin: -260px auto 0 -105px !important;
     top: 50%;
     transform: translateY(-50%);
     color: white;
-    padding: 10px 15px;
 }
 
 .item01 .doctor-cir{
@@ -562,8 +561,8 @@ margin: -260px auto 0 -105px !important;
 // 의사들 슬랙슬라이드 //
 .slick-current .doctor-item .doctor-cir {
     margin-top: -53px;
-    width: 570px; /* 수정 */
-    height: 550px; /* 수정*/
+    width: 590px; /* 수정 */
+    height: 553px; /* 수정*/
     z-index: 2; 
     margin-left: -70px;
 }
@@ -575,9 +574,10 @@ margin: -260px auto 0 -105px !important;
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-    width: 500px; /* 수정*/
-    height: 550px; /* 수정*/
+    width: 350px; /* 수정*/
+    height: 500px; /* 수정*/
     z-index: 1;/* 수정*/
+    margin-top: 53px;
 }
 button.slick-prev, button.slick-next {
     z-index: 3; /* 슬라이드 네비게이션 버튼이 이미지보다 앞에 보이도록 설정 */
@@ -585,10 +585,10 @@ button.slick-prev, button.slick-next {
 }
 
 .doctor-item .doctor-cir {
-    width: 400px; /* 기본 이미지 크기 */
+    width: 444px; /* 기본 이미지 크기 */
     height: 450px; /* 기본 이미지 크기 */
     transition: all 0.4s ease-in-out; /* 부드러운 전환 효과 */
-    margin: 0 15px; 
+    margin: 50px 15px; 
 }
 .doctor-item .doctor-cir .img {
     width: 300px; /* 이미지를 부모 크기에 맞게 설정 */
@@ -644,7 +644,7 @@ button.slick-prev, button.slick-next {
     width: auto !important;
 }
 .slick-slide img{
-    width: 200px;
+    width: 250px;
 }
 
 .slick-current .doctor-item .text-img {
