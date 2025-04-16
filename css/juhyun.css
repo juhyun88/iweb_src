@@ -648,7 +648,7 @@ button.slick-prev, button.slick-next {
 #green19_82116 .boardHead {
   border-bottom: 1px solid var(--Main, #F17522) !important;
   padding-top: 20px !important;
-  margin-bottom: 10px !important;
+  margin-bottom: 15px !important;
 }
 #green19_82116 .boardHead-Title {
   font-family: "Paperlogy 5 Medium" !important;
@@ -833,11 +833,8 @@ button.slick-prev, button.slick-next {
   align-items: center !important;
   justify-content: center !important;
 }
-.youtobe_section_img .slick-slide {
-  width: 300px !important;
-}
 .youtobe_section_img .slick-list {
-  width: 1365px;
+  width: 1365px !important;
 }
 .youtobe_section_img .slick-slide > div {
   display: flex;
@@ -880,19 +877,21 @@ button.slick-prev, button.slick-next {
   height: 50px;
 }
 .youtobe_section_img .slick-arrow.slick-prev::after {
+  right: -90px !important;
   width: 2px !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow.slick-next::after {
-  left: -13% !important;
+  left: -190% !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow.slick-prev::before {
+  right: -90px !important;
   width: 2px !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow.slick-next::before {
-  left: -15% !important;
+  left: -190% !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-prev {
