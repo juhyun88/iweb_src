@@ -30,7 +30,7 @@ $(function() {
                     autoplay: true,
                     speed: 1000,
                     infinite: true,
-                    autoplaySpeed: 3000,
+                    autoplaySpeed: 10000,
                     easing: 'easeInOutQuint',
                     pauseOnHover: false,
                     centerMode: true,

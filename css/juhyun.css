@@ -456,6 +456,7 @@ body, #headerwarp {
 }
 
 .text-img {
+  display: none;
   position: absolute;
   right: 0;
   top: 50%;
@@ -504,7 +505,7 @@ body, #headerwarp {
 
 .slick-current .doctor-item .doctor-cir {
   margin-top: -53px;
-  width: 670px; /* 수정 */
+  width: 570px; /* 수정 */
   height: 550px; /* 수정*/
   z-index: 2;
   margin-left: -70px;
@@ -517,7 +518,7 @@ body, #headerwarp {
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-  width: 600px; /* 수정*/
+  width: 500px; /* 수정*/
   height: 550px; /* 수정*/
   z-index: 1; /* 수정*/
 }
