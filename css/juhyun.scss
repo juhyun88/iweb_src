@@ -561,7 +561,7 @@ margin: -260px auto 0 -105px !important;
 // 의사들 슬랙슬라이드 //
 .slick-current .doctor-item .doctor-cir {
     margin-top: -53px;
-    width: 470px; /* 수정 */
+    width: 670px; /* 수정 */
     height: 550px; /* 수정*/
     z-index: 2; 
     margin-left: -70px;
@@ -574,7 +574,7 @@ margin: -260px auto 0 -105px !important;
 }
 
 .slick-current .doctor-item .doctor-cir .img {
-    width: 400px; /* 수정*/
+    width: 600px; /* 수정*/
     height: 550px; /* 수정*/
     z-index: 1;/* 수정*/
 }
@@ -928,7 +928,7 @@ button.slick-prev, button.slick-next {
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::after{
-        left: -190% !important;
+        left: -150% !important;
         background-color: #f17522 !important;
     }
     .slick-prev .slick-arrow::before{
@@ -937,13 +937,11 @@ button.slick-prev, button.slick-next {
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::before{
-        left: -190% !important;
+        left: -150% !important;
         background-color: #f17522 !important;
     }
 
-    .slick-prev {
-        left: -60px; /* 이전 버튼 위치 */
-    }
+
 
     .slick-next {
         right: -60px; /* 다음 버튼 위치 */
