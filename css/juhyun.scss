@@ -33,8 +33,9 @@ body, #headerwarp{
         margin-top:-20px !important;
     }
 }
-
-
+#green19_82681{
+margin: -260px auto 0 -105px !important;
+}
 
 #gNavi{
 
@@ -658,7 +659,6 @@ button.slick-prev, button.slick-next {
 //게시판 부분//
 #green19_82116 {
     height: 385px;
-    background: var(--Color-2, #DBEBF6);
     margin-bottom: -20px !important;
     .boardHead{
         border-bottom: 1px solid var(--Main, #F17522) !important;
@@ -853,6 +853,7 @@ button.slick-prev, button.slick-next {
     align-items: center;
     justify-content: center;
     height: 770px;  
+    background-color: #DBEBF6;
 }
 
 .youtobe_section_img {
@@ -872,8 +873,15 @@ button.slick-prev, button.slick-next {
     justify-content: center !important;
     }
     
-    .slick-slide .slick-cloned{
+    .slick-slide {
         width: 300px !important;
+    }
+
+    .slick-slide > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px; // 이미지들 사이의 간격을 줄이기 위해 margin 값을 조정
     }
     .img1,
     .img2,
