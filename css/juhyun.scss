@@ -588,7 +588,7 @@ button.slick-prev, button.slick-next {
     width: 444px; /* 기본 이미지 크기 */
     height: 450px; /* 기본 이미지 크기 */
     transition: all 0.4s ease-in-out; /* 부드러운 전환 효과 */
-    margin: 50px 15px; 
+    margin: 10px 15px; 
 }
 .doctor-item .doctor-cir .img {
     width: 300px; /* 이미지를 부모 크기에 맞게 설정 */
@@ -654,6 +654,12 @@ button.slick-prev, button.slick-next {
     left: -60% !important;
 }
 .slick-arrow.slick-next::before{
+    left: -165% !important;
+}
+.slick-arrow.slick-prev::after{
+    left: -60% !important;
+}
+.slick-arrow.slick-prev::before{
     left: -165% !important;
 }
 
