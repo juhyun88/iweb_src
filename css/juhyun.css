@@ -638,11 +638,14 @@ button.slick-prev, button.slick-next {
 }
 
 #green19_82116 {
-  height: 413px;
+  height: 385px;
+  background: var(--Color-2, #DBEBF6);
+  margin-bottom: -20px !important;
 }
 #green19_82116 .boardHead {
   border-bottom: 1px solid var(--Main, #F17522) !important;
-  padding-top: 26px !important;
+  padding-top: 20px !important;
+  margin-bottom: 10px !important;
 }
 #green19_82116 .boardHead-Title {
   font-family: "Paperlogy 5 Medium" !important;
@@ -653,11 +656,10 @@ button.slick-prev, button.slick-next {
   line-height: 5.5 !important;
 }
 
-.boardHead-More {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.area {
+  margin-top: 100px !important;
 }
+
 .boardHead-More a {
   display: flex;
   align-items: center;
@@ -666,6 +668,7 @@ button.slick-prev, button.slick-next {
   content: url("https://juhyun88.github.io/iweb_src/first_banner/btn.svg") !important;
   width: 30px; /* Adjust the width */
   height: 30px; /* Adjust the height */
+  margin-right: -10px;
 }
 .boardHead-More a::before {
   content: "자세히보기";
@@ -803,20 +806,11 @@ button.slick-prev, button.slick-next {
   right: -5px; /* 화살표 위치 조정 */
 }
 
-#green19_82661 {
-  background: var(--Color-2, #DBEBF6);
-  margin-top: -20px !important;
-  margin-bottom: -20px !important;
-}
-#green19_82661 #youtobeInfoCon {
+#youtobeInfoCon {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 770px;
-}
-
-.area {
-  margin-top: 100px !important;
 }
 
 .youtobe_section_img {
@@ -834,6 +828,9 @@ button.slick-prev, button.slick-next {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+}
+.youtobe_section_img .slick-slide .slick-cloned {
+  width: 300px !important;
 }
 .youtobe_section_img .img1,
 .youtobe_section_img .img2,
