@@ -836,11 +836,14 @@ button.slick-prev, button.slick-next {
 .youtobe_section_img .slick-slide {
   width: 300px !important;
 }
+.youtobe_section_img .slick-list {
+  width: 1365px;
+}
 .youtobe_section_img .slick-slide > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
+  margin: 0 auto !important;
 }
 .youtobe_section_img .img1,
 .youtobe_section_img .img2,
