@@ -870,11 +870,11 @@ button.slick-prev, button.slick-next {
   align-items: center !important;
   justify-content: center !important;
 }
+.youtobe_section_img .slick-list .slick-track .slick-slide .slick-current .slick-active {
+  width: 300px !important;
+}
 .youtobe_section_img .slick-list {
   width: 1365px !important;
-}
-.youtobe_section_img .slick-slide .slick-current .slick-active {
-  width: 300px !important;
 }
 .youtobe_section_img .slick-slide > div {
   display: flex;

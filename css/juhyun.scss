@@ -907,15 +907,17 @@ button.slick-prev, button.slick-next {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    
+    .slick-slide .slick-current .slick-active{
+        width: 300px !important;
+    }
     }
     
    
     .slick-list{
         width: 1365px !important;
     }
-    .slick-slide .slick-current .slick-active{
-        width: 300px !important;
-    }
+ 
     .slick-slide > div {
         display: flex;
         align-items: center;
