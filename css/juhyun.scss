@@ -913,7 +913,9 @@ button.slick-prev, button.slick-next {
     .slick-list{
         width: 1365px !important;
     }
-
+    .slick-slide .slick-current .slick-active{
+        width: 300px !important;
+    }
     .slick-slide > div {
         display: flex;
         align-items: center;
