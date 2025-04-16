@@ -35,6 +35,8 @@ $(function() {
                     pauseOnHover: false,
                     centerMode: true,
                     zIndex: 1,
+                    prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>', // 이전 화살표
+                    nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>', // 다음 화살표
                     responsive: [
                             {
                                     breakpoint: 1221,

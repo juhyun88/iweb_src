@@ -240,16 +240,17 @@ margin: -260px auto 0 -105px !important;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 138px;
+        gap: 151px;
         align-self: stretch;
-        margin-right: 30px;
+        margin-right: 6px;
+       
       }
       ul.image-list_center{
         li{
             display: flex;
             flex-direction: column;
             width: 101.224px;
-            padding: 24.433px 26.178px;
+            
             justify-content: center;
             align-items: center;
             gap: 17.452px;
@@ -668,7 +669,13 @@ button.slick-prev, button.slick-next {
 //게시판 부분//
 #green19_82116 {
     height: 385px;
+    display: flex;
     margin-bottom: -20px !important;
+    justify-content: space-between;
+     width: 1364px !important;
+     .box_{
+        margin-right: 200px !important;
+     }
     .boardHead{
         border-bottom: 1px solid var(--Main, #F17522) !important;
         padding-top: 20px !important;
@@ -862,7 +869,8 @@ button.slick-prev, button.slick-next {
         right:0;
         top:0;
         bottom:0;
-        background-color: black;
+        background-color: #f9f1de;
+        z-index: -1;
 }
 }
 
@@ -1096,5 +1104,5 @@ button.slick-prev, button.slick-next {
 
   }
   #gNavi.gNavi > ul > li > a{
-    padding-right: 30px !important;
+    padding-right: 0px !important;
   }
