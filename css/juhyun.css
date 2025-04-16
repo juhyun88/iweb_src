@@ -876,7 +876,7 @@ button.slick-prev, button.slick-next {
   width: 50px;
   height: 50px;
 }
-.youtobe_section_img .slick-arrow.slick-prev::after {
+.youtobe_section_img .slick-prev .slick-arrow::after {
   right: -90px !important;
   width: 2px !important;
   background-color: #f17522 !important;
@@ -885,7 +885,7 @@ button.slick-prev, button.slick-next {
   left: -190% !important;
   background-color: #f17522 !important;
 }
-.youtobe_section_img .slick-arrow.slick-prev::before {
+.youtobe_section_img .slick-prev .slick-arrow::before {
   right: -90px !important;
   width: 2px !important;
   background-color: #f17522 !important;
