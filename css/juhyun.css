@@ -197,8 +197,9 @@ body, #headerwarp {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 81px;
+  gap: 138px;
   align-self: stretch;
+  margin-right: 30px;
 }
 #mainbottom ul.image-list_center li {
   display: flex;
@@ -208,6 +209,7 @@ body, #headerwarp {
   justify-content: center;
   align-items: center;
   gap: 17.452px;
+  padding-left: 0px !important;
 }
 #mainbottom ul.image-list_center li.image_center_item1 .img {
   background-image: url("https://juhyun88.github.io/iweb_src/IconandQuick/icon1.svg");
@@ -1034,4 +1036,8 @@ li#gNaviNum3 {
 }
 #gNavi.gNavi > ul > li:hover::after {
   width: calc(100% - 30px);
+}
+
+#gNavi.gNavi > ul > li > a {
+  padding-right: 30px !important;
 }

@@ -240,8 +240,9 @@ margin: -260px auto 0 -105px !important;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 81px;
+        gap: 138px;
         align-self: stretch;
+        margin-right: 30px;
       }
       ul.image-list_center{
         li{
@@ -252,6 +253,7 @@ margin: -260px auto 0 -105px !important;
             justify-content: center;
             align-items: center;
             gap: 17.452px;
+            padding-left: 0px !important;
             @for $i from 1 through 6 {
                 &.image_center_item#{$i} {
                     .img {
@@ -1082,4 +1084,6 @@ button.slick-prev, button.slick-next {
     }
 
   }
-
+  #gNavi.gNavi > ul > li > a{
+    padding-right: 30px !important;
+  }
