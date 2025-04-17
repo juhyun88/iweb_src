@@ -501,7 +501,7 @@ margin: -260px auto 0 -105px !important;
         width:250px;
         flex-shrink: 0;
         background-color: yellow;
-        margin-left: 50px;
+      
 
     }
     .content .des{          
@@ -517,12 +517,10 @@ margin: -260px auto 0 -105px !important;
         transform: scale(1);
         background-color: rgb(255, 255, 255);
     }
-    .swiper-slide-active .des{
-        max-width: 150px;            
-    }
     .swiper-slide-active .des  {
+        max-width: 150px; 
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 10px;
         text-align: center;
         align-items: start;

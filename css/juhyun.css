@@ -442,7 +442,6 @@ body, #headerwarp {
   width: 250px;
   flex-shrink: 0;
   background-color: yellow;
-  margin-left: 50px;
 }
 #green19_78758 .content .des {
   flex-shrink: 0;
@@ -457,10 +456,8 @@ body, #headerwarp {
 }
 #green19_78758 .swiper-slide-active .des {
   max-width: 150px;
-}
-#green19_78758 .swiper-slide-active .des {
   display: flex;
-  flex-direction: column;
+  flex-direction: column !important;
   gap: 10px;
   text-align: center;
   align-items: start;
