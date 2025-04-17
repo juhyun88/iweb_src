@@ -444,102 +444,103 @@ margin: -260px auto 0 -105px !important;
     background-size: cover;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
-.centerSwiper {
-    width: 100%;
-    height: 390px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    overflow: hidden;
-}
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide {
-   
-    border: 2px solid white;
-    width: 250px;
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-}
-.swiper-pagination {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-wrap: nowrap; 
-    transition: 0.5s; 
-    transform: scale(0.8);      
-  
-}
-.content > div{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-wrap: nowrap;        
-}
-.content .img{
-    width:250px;
-    flex-shrink: 0;
-    background-color: yellow;
-    margin-left: 50px;
 
-}
-.content .des{          
-    flex-shrink: 0;
-    max-width:0;
-    overflow: hidden; 
-    transition: 0.5s ; 
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    .centerSwiper {
+        width: 100%;
+        height: 390px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        overflow: hidden;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+    
+        border: 2px solid white;
+        width: 250px;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .swiper-pagination {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-wrap: nowrap; 
+        transition: 0.5s; 
+        transform: scale(0.8);      
+    
+    }
+    .content > div{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-wrap: nowrap;        
+    }
+    .content .img{
+        width:250px;
+        flex-shrink: 0;
+        background-color: yellow;
+        margin-left: 50px;
 
-       
-}
-.swiper-slide-active{
-    z-index: 1000;
-    transform: scale(1);
-    background-color: rgb(255, 255, 255);
-}
-.swiper-slide-active .des{
-    max-width: 150px;            
-}
-.swiper-slide-active .des  {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-    align-items: start;
-}
+    }
+    .content .des{          
+        flex-shrink: 0;
+        max-width:0;
+        overflow: hidden; 
+        transition: 0.5s ; 
 
-.swiper-slide-activ .des span, .des button {
-    display: flex;
-    flex-direction: column;
-    white-space: pre-line;
-    line-height: 1.9;
-    width: 130px;
-    height: 30px;
-    border: 1px #558ccf solid;
-    color: #558ccf;
-    font-family: "Paperlogy 4" !important;
-    font-weight: 400;
-    background-color: white;
+        
+    }
+    .swiper-slide-active{
+        z-index: 1000;
+        transform: scale(1);
+        background-color: rgb(255, 255, 255);
+    }
+    .swiper-slide-active .des{
+        max-width: 150px;            
+    }
+    .swiper-slide-active .des  {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        align-items: start;
+    }
+
+    .swiper-slide-activ .des span, .des button {
+        display: flex;
+        flex-direction: column;
+        white-space: pre-line;
+        line-height: 1.9;
+        width: 130px;
+        height: 30px;
+        border: 1px #558ccf solid;
+        color: #558ccf;
+        font-family: "Paperlogy 4" !important;
+        font-weight: 400;
+        background-color: white;
+    }
 }
 
 //게시판 부분//

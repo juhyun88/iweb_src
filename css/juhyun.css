@@ -389,15 +389,13 @@ body, #headerwarp {
   background-size: cover;
   box-sizing: border-box;
 }
-
-body {
+#green19_78758 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
 }
-
-.centerSwiper {
+#green19_78758 .centerSwiper {
   width: 100%;
   height: 390px;
   display: flex;
@@ -407,13 +405,11 @@ body {
   background-color: #ffffff;
   overflow: hidden;
 }
-
-.swiper-container {
+#green19_78758 .swiper-container {
   width: 100%;
   height: 100%;
 }
-
-.swiper-slide {
+#green19_78758 .swiper-slide {
   border: 2px solid white;
   width: 250px;
   color: rgb(0, 0, 0);
@@ -421,16 +417,14 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.swiper-pagination {
+#green19_78758 .swiper-pagination {
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
 }
-
-.content {
+#green19_78758 .content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -438,47 +432,40 @@ body {
   transition: 0.5s;
   transform: scale(0.8);
 }
-
-.content > div {
+#green19_78758 .content > div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
-
-.content .img {
+#green19_78758 .content .img {
   width: 250px;
   flex-shrink: 0;
   background-color: yellow;
   margin-left: 50px;
 }
-
-.content .des {
+#green19_78758 .content .des {
   flex-shrink: 0;
   max-width: 0;
   overflow: hidden;
   transition: 0.5s;
 }
-
-.swiper-slide-active {
+#green19_78758 .swiper-slide-active {
   z-index: 1000;
   transform: scale(1);
   background-color: rgb(255, 255, 255);
 }
-
-.swiper-slide-active .des {
+#green19_78758 .swiper-slide-active .des {
   max-width: 150px;
 }
-
-.swiper-slide-active .des {
+#green19_78758 .swiper-slide-active .des {
   display: flex;
   flex-direction: column;
   gap: 10px;
   text-align: center;
   align-items: start;
 }
-
-.swiper-slide-activ .des span, .des button {
+#green19_78758 .swiper-slide-activ .des span, #green19_78758 .des button {
   display: flex;
   flex-direction: column;
   white-space: pre-line;
