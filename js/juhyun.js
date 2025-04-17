@@ -18,37 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    //의사들 배너 슬라이드//
-$(function() {
-    if ($(".doctor-list").length) { // .main-info-list가 존재할 때만 실행
-            $(".doctor-list").slick({
-                    slidesToShow: 5,
-                    slidesToScroll: 1,
-                    arrows: true, // 화살표 버튼 활성화
-                    fade: false,
-                    dots: false,
-                    autoplay: true,
-                    speed: 1000,
-                    infinite: true,
-                    autoplaySpeed: 10000,
-                    easing: 'easeInOutQuint',
-                    pauseOnHover: false,
-                    centerMode: true,
-                    zIndex: 1,
-                    prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"></button>', // 이전 화살표
-                    nextArrow: '<button class="slick-next" aria-label="Next" type="button"></button>', // 다음 화살표
-                    responsive: [
-                            {
-                                    breakpoint: 1221,
-                                    settings: {
-                                            slidesToShow: 3,
-                                            slidesToScroll: 1,
-                                    }
-                            },
-                    ]
-            });
-    }
-});
+
 
 
 //첫번째 배너 슬라이드//
