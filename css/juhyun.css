@@ -704,8 +704,8 @@ body, #headerwarp {
 .youtobe_section_img .img3,
 .youtobe_section_img .img4,
 .youtobe_section_img .img5 {
-  width: 256px !important;
-  height: 260px !important;
+  width: 320px !important;
+  height: 305px !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -724,7 +724,7 @@ body, #headerwarp {
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow.slick-next::after {
-  left: -150% !important;
+  left: -130% !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-prev .slick-arrow::before {
@@ -733,7 +733,7 @@ body, #headerwarp {
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow.slick-next::before {
-  left: -150% !important;
+  left: -130% !important;
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow:before {

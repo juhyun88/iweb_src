@@ -814,8 +814,8 @@ margin: -260px auto 0 -105px !important;
     .img3,
     .img4,
     .img5 {
-        width: 256px !important;
-        height: 260px !important;
+        width: 320px !important;
+        height: 305px !important;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -835,7 +835,7 @@ margin: -260px auto 0 -105px !important;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::after{
-        left: -150% !important;
+        left: -130% !important;
         background-color: #f17522 !important;
     }
     .slick-prev .slick-arrow::before{
@@ -844,7 +844,7 @@ margin: -260px auto 0 -105px !important;
         background-color: #f17522 !important;
     }
     .slick-arrow.slick-next::before{
-        left: -150% !important;
+        left: -130% !important;
         background-color: #f17522 !important;
     }
     .slick-arrow:before{
