@@ -469,6 +469,7 @@ margin: -260px auto 0 -105px !important;
                 justify-content: center;
                 align-items: stretch;
                 flex-wrap: nowrap; 
+               
 
                 &.content {              
                     
@@ -491,8 +492,12 @@ margin: -260px auto 0 -105px !important;
                             flex-direction: column !important;
                             gap: 10px;                
                             align-items: start;
-                            white-space: nowrap;  
-                            padding:1rem;
+                            white-space: nowrap;
+                            justify-content: center;
+                            background-color: white;
+                            div{
+                                padding:1rem;
+                            }
 
                             button {
                                 display: flex;

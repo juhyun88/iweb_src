@@ -426,6 +426,10 @@ body, #headerwarp {
   gap: 10px;
   align-items: start;
   white-space: nowrap;
+  justify-content: center;
+  background-color: white;
+}
+#green19_78758 .centerSwiper .swiper-container .swiper-slide.content .des div {
   padding: 1rem;
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content .des button {
