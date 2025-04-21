@@ -431,6 +431,7 @@ body, #headerwarp {
   font-family: "Noto Sans KR", sans-serif !important;
   display: flex;
   flex-direction: column !important;
+  background-color: white;
   align-items: start;
   white-space: nowrap;
   justify-content: center;
@@ -441,12 +442,12 @@ body, #headerwarp {
   flex-direction: column;
   gap: 10px;
 }
-#green19_78758 .centerSwiper .swiper-container .swiper-slide.content .des button {
+#green19_78758 .centerSwiper .swiper-container .swiper-slide.content .des a {
   display: flex;
   flex-direction: column;
   white-space: pre-line;
   line-height: 1.3;
-  width: 130px;
+  width: 100px;
   height: 30px;
   border: 1px #558ccf solid;
   color: #558ccf;
