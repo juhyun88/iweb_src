@@ -411,7 +411,7 @@ body, #headerwarp {
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content {
   transition: 0.5s;
-  transform: scale(0.8);
+  transform: scale(1);
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content .img img {
   width: 250px;
@@ -447,7 +447,7 @@ body, #headerwarp {
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content.swiper-slide-active {
   z-index: 1000;
-  transform: scale(1);
+  transform: scale(1.3);
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content.swiper-slide-active .des {
   max-width: 200px;
