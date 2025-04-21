@@ -876,19 +876,28 @@ margin: -260px auto 0 -105px !important;
       border: none;
       padding: 3px;
     }
-  
+    
+  .quick-menu{
     .quick-top_num1 {
-      .img {
-        width: 40px !important;
-        height: 25px !important;
+        .quick-img{
+            .img {
+                width: 40px !important;
+                height: 25px !important;
+              }
+        }
+        
       }
-    }
-  
-    .quick-top_num2 {
-      .img {
-        width: 35px !important;
-      }
-    }
+    
+      .quick-top_num2 {
+        .quick-img{
+            .img {
+                width: 35px !important;
+              }
+        }
+       
+        }
+}
+ 
   }
   
 
