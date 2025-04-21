@@ -417,6 +417,15 @@ body, #headerwarp {
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.swiper-slide-next {
   padding-left: 80px;
 }
+#green19_78758 .centerSwiper .swiper-container .swiper-slide.swiper-button-prev {
+  left: 45px !important;
+  top: 64% !important;
+  color: var(--Main, #F17522);
+}
+#green19_78758 .centerSwiper .swiper-container .swiper-slide.swiper-button-next {
+  right: 120px !important;
+  color: var(--Main, #F17522);
+}
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content {
   transition: 0.5s;
   transform: scale(1);
@@ -450,7 +459,7 @@ body, #headerwarp {
   flex-direction: column;
   white-space: pre-line;
   line-height: 1.6;
-  width: 9%;
+  width: 90px;
   height: 20px;
   border: 1px #558ccf solid;
   color: #558ccf;
@@ -700,21 +709,6 @@ body, #headerwarp {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.youtobe_section_img .img1 {
-  background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe1.jpg") center/cover no-repeat;
-}
-.youtobe_section_img .img2 {
-  background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe2.jpg") center/cover no-repeat;
-}
-.youtobe_section_img .img3 {
-  background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe3.jpg") center/cover no-repeat;
-}
-.youtobe_section_img .img4 {
-  background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe4.jpg") center/cover no-repeat;
-}
-.youtobe_section_img .img5 {
-  background: url("https://juhyun88.github.io/iweb_src/youtube/youtube5.jpg") center/cover no-repeat;
 }
 .youtobe_section_img .slick-prev,
 .youtobe_section_img .slick-next {

@@ -480,7 +480,16 @@ margin: -260px auto 0 -105px !important;
                     padding-left: 80px;
 
                 }
-               
+                &.swiper-button-prev{
+                    left: 45px !important;
+                    top: 64% !important;
+                    color: var(--Main, #F17522);
+                }
+                &.swiper-button-next{
+                    right: 120px !important;
+                    color: var(--Main, #F17522);
+                }
+                
 
                 &.content {              
                     
@@ -521,7 +530,7 @@ margin: -260px auto 0 -105px !important;
                                 flex-direction: column;
                                 white-space: pre-line;
                                 line-height: 1.6;
-                                width: 9%;
+                                width: 90px;
                                 height: 20px;
                                 border: 1px #558ccf solid;
                                 color: #558ccf;
@@ -810,24 +819,6 @@ margin: -260px auto 0 -105px !important;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    }
-
-    .img1 {
-        background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe1.jpg") center/cover no-repeat;
-    }
-
-    .img2 {
-        background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe2.jpg") center/cover no-repeat;
-    }
-    .img3 {
-        background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe3.jpg") center/cover no-repeat;
-    }
-
-    .img4 {
-        background: url("https://juhyun88.github.io/iweb_src/youtube/Youtobe4.jpg") center/cover no-repeat;
-    }
-    .img5 {
-        background: url("https://juhyun88.github.io/iweb_src/youtube/youtube5.jpg") center/cover no-repeat;
     }
 
     .slick-prev,
