@@ -757,7 +757,7 @@ body, #headerwarp {
   padding: 3px;
 }
 #green19_82309 .quick-top_num1 .img {
-  width: 40px;
+  width: 40px !important;
   height: 25px;
 }
 #green19_82309 .quick-top_num2 .img {
