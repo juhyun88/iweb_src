@@ -439,9 +439,11 @@ body, #headerwarp {
   flex-wrap: nowrap;
 }
 #green19_78758 .content .img {
-  width: 250px;
+  width: 200px;
+  height: 250px;
   flex-shrink: 0;
   background-color: yellow;
+  transition: all 0.3s ease;
 }
 #green19_78758 .content .des {
   flex-shrink: 0;
@@ -456,12 +458,18 @@ body, #headerwarp {
 }
 #green19_78758 .swiper-slide-active .des {
   font-family: "Noto Sans KR", sans-serif !important;
-  max-width: 190px;
+  max-width: 200px;
   display: flex;
   flex-direction: column !important;
   gap: 10px;
   text-align: center;
   align-items: start;
+}
+#green19_78758 .swiper-slide-active .img {
+  width: 300px; /* 기존보다 넓게 */
+  height: 400px; /* 높이도 추가 */
+  background-color: yellow;
+  transition: all 0.3s ease;
 }
 #green19_78758 .swiper-slide-activ .des span, #green19_78758 .des button {
   display: flex;
@@ -752,6 +760,9 @@ body, #headerwarp {
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-arrow:before {
+  background-color: #f17522 !important;
+}
+.youtobe_section_img .slick-arrow::after {
   background-color: #f17522 !important;
 }
 .youtobe_section_img .slick-next {
