@@ -464,11 +464,13 @@ margin: -260px auto 0 -105px !important;
             .swiper-slide {   
                
                 width: 250px;
+                padding-right: 30px;
                 color: rgb(0, 0, 0);
                 display: flex;
                 justify-content: center;
                 align-items: stretch;
                 flex-wrap: nowrap; 
+                background-color: white;
                
 
                 &.content {              
@@ -494,7 +496,7 @@ margin: -260px auto 0 -105px !important;
                             align-items: start;
                             white-space: nowrap;
                             justify-content: center;
-                            background-color: white;
+                           
                             div{
                                 padding:1rem;
                                 display: flex;

@@ -403,11 +403,13 @@ body, #headerwarp {
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide {
   width: 250px;
+  padding-right: 30px;
   color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: stretch;
   flex-wrap: nowrap;
+  background-color: white;
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content {
   transition: 0.5s;
@@ -426,7 +428,6 @@ body, #headerwarp {
   align-items: start;
   white-space: nowrap;
   justify-content: center;
-  background-color: white;
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content .des div {
   padding: 1rem;
