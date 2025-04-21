@@ -471,6 +471,15 @@ margin: -260px auto 0 -105px !important;
                 align-items: stretch;
                 flex-wrap: nowrap; 
                 background-color: white;
+
+                &.swiper-slide-prev{
+                    padding-right: 80px;
+
+                }
+                &.swiper-slide-next{
+                    padding-left: 80px;
+
+                }
                
 
                 &.content {              

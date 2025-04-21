@@ -411,6 +411,12 @@ body, #headerwarp {
   flex-wrap: nowrap;
   background-color: white;
 }
+#green19_78758 .centerSwiper .swiper-container .swiper-slide.swiper-slide-prev {
+  padding-right: 80px;
+}
+#green19_78758 .centerSwiper .swiper-container .swiper-slide.swiper-slide-next {
+  padding-left: 80px;
+}
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content {
   transition: 0.5s;
   transform: scale(1);
