@@ -860,18 +860,26 @@ margin: -260px auto 0 -105px !important;
     }
 }
 //퀵버튼//
-#green19_82309 .quick-bottom .quick-btn img{
-    width: 30px!important;
-    height: 44px!important;
-   
-}
-#green19_82309 .quick-btn4{
-    background: var(--Color-4, #F9F1DE);
-    border-radius:  25.414px;   
-    border:  none;
-    padding: 3px;
-}
-
+#green19_82309{
+    .quick-bottom .quick-btn img{
+        width: 30px!important;
+        height: 44px!important;
+       
+    }
+    .quick-btn4{
+        background: var(--Color-4, #F9F1DE);
+        border-radius:  25.414px;   
+        border:  none;
+        padding: 3px;
+    }
+    .quick-top_num1 .img{
+        width: 40px;
+        height: 25px;
+    }
+    .quick-top_num2 .img{
+        width: 35px;
+    }
+} 
 
 
 //지도//
