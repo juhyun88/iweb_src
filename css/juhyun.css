@@ -423,7 +423,6 @@ body, #headerwarp {
   font-family: "Noto Sans KR", sans-serif !important;
   display: flex;
   flex-direction: column !important;
-  gap: 10px;
   align-items: start;
   white-space: nowrap;
   justify-content: center;
@@ -431,6 +430,9 @@ body, #headerwarp {
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content .des div {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 #green19_78758 .centerSwiper .swiper-container .swiper-slide.content .des button {
   display: flex;

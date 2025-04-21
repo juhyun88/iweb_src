@@ -490,13 +490,16 @@ margin: -260px auto 0 -105px !important;
                             font-family:  "Noto Sans KR", sans-serif !important; 
                             display: flex;
                             flex-direction: column !important;
-                            gap: 10px;                
+                                         
                             align-items: start;
                             white-space: nowrap;
                             justify-content: center;
                             background-color: white;
                             div{
                                 padding:1rem;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;  
                             }
 
                             button {
