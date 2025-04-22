@@ -18,9 +18,6 @@ body, #headerwarp {
   display: flex !important;
   justify-content: center !important;
 }
-#blockWrap #green19_82324 + div {
-  display: none !important;
-}
 #blockWrap #green19_82661 {
   margin: -20px !important;
 }
