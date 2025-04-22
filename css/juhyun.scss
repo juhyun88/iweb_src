@@ -943,16 +943,6 @@ margin: -260px auto 0 -105px !important;
         border-bottom: 2px solid #ccc;
         position: relative;
   
-        .map_text_logo1,
-        .map_text_logo2 {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          flex: 1;
-          text-align: center;
-        }
-  
         .map_text_logo1 {
           border-right: 2px solid #ccc;
   
@@ -984,7 +974,7 @@ margin: -260px auto 0 -105px !important;
   
           .tele_text1,
           .tele_text2 {
-            color: #F17522;
+           
             font-family: "Paperlogy 7";
             font-weight: 700;
           }
