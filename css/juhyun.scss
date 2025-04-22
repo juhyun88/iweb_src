@@ -894,81 +894,105 @@ margin: -260px auto 0 -105px !important;
   
 
 //지도//
-#green19_82681{
+#green19_82681 {
     display: flex;
     height: 824px;
     justify-content: center;
     background-color: white;
     align-items: center;
-    
-    .map_img{
-        background: url("https://juhyun88.github.io/iweb_src/youtube/map.jpg") center/cover no-repeat;
-        width: 917px;
-        height: 517px;
+  
+    .map_img {
+      background: url("https://juhyun88.github.io/iweb_src/youtube/map.jpg") center/cover no-repeat;
+      width: 917px;
+      height: 517px;
     }
-    .map_section{
+  
+    .map_section {
+      display: flex;
+      align-items: center;
+      width: 1364px;
+      height: 517px;
+    }
+  
+    .map_text {
+      display: flex;
+      width: 447px;
+      height: 440px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+  
+      span {
+        color: #000000;
+        font-family: "Paperlogy 4" !important;
+        font-style: normal;
+        line-height: normal;
+        font-weight: 400;
+      }
+  
+      .map_text_time {
+        margin-top: -21px;
+      }
+  
+      .map_text_logo {
+        width: 390px;
+        height: 100px;
         display: flex;
+        justify-content: center;
         align-items: center;
-        width: 1364px;
-        height: 517px;
+        border-bottom: 2px solid #ccc;
+        position: relative;
+  
+        .map_text_logo1,
+        .map_text_logo2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          flex: 1;
+          text-align: center;
+        }
+  
+        .map_text_logo1 {
+          border-right: 2px solid #ccc;
+  
+          img {
+            margin-left: 12px;
+            margin-bottom: -7px;
+          }
+  
+          .tele_text1 {
+            margin-left: 10px;
+            color: #F17522 !important;
+            font-family: "Paperlogy 7" !important;
+            font-weight: 700 !important;
+          }
+  
+          .tele_text2 {
+            color: #F17522 !important;
+            font-family: "Paperlogy 7" !important;
+            font-weight: 700 !important;
+          }
+        }
+  
+        .map_text_logo2 {
+          margin-left: 12px;
+  
+          img {
+            margin-bottom: -19px;
+          }
+  
+          .tele_text1,
+          .tele_text2 {
+            color: #F17522;
+            font-family: "Paperlogy 7";
+            font-weight: 700;
+          }
+        }
+      }
     }
-    .map_text{
-        display: flex;
-        width: 447px;
-        height: 440px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 40px;
-
-        span{
-            color: #000000;
-            font-family: "Paperlogy 4" !important;
-            font-style: normal;
-            line-height: normal; 
-            font-weight: 400;
-        }
-        .map_text_time{
-            margin-top: -21px;
-        }
-        .map_text_logo{
-            width: 390px;
-            height: 100px;
-            border-bottom: 2px solid #ccc;
-          
-            
-            .map_text_logo1{
-                
-                
-                border-right: 2px solid #ccc;
-                img{
-                    margin-left: 12px;
-                    margin-bottom: -7px;
-                }
-                span .tele_text1 {
-                    margin-left: 10px;
-                    color: #F17522 !important;
-                    font-family: "Paperlogy 7" !important;
-                font-weight: 700 !important;
-                }
-                span .tele_text2 {
-                    color: #F17522 !important;
-                    font-family: "Paperlogy 7" !important;
-                font-weight: 700 !important;
-                }
-
-            }
-            .map_text_logo2{
-                font-family: "Paperlogy 7";
-                font-weight: 700;
-                margin-left: 12px;
-                img{
-                    margin-bottom: -19px;
-                }
-            }
-        }
-        
-    }
-}
+  }
+  
 
 //상단 바 메뉴 색상 변경//
 #gNavi.gNavi {

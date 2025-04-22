@@ -798,7 +798,20 @@ body, #headerwarp {
 #green19_82681 .map_text .map_text_logo {
   width: 390px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: 2px solid #ccc;
+  position: relative;
+}
+#green19_82681 .map_text .map_text_logo .map_text_logo1,
+#green19_82681 .map_text .map_text_logo .map_text_logo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
 }
 #green19_82681 .map_text .map_text_logo .map_text_logo1 {
   border-right: 2px solid #ccc;
@@ -807,24 +820,28 @@ body, #headerwarp {
   margin-left: 12px;
   margin-bottom: -7px;
 }
-#green19_82681 .map_text .map_text_logo .map_text_logo1 span .tele_text1 {
+#green19_82681 .map_text .map_text_logo .map_text_logo1 .tele_text1 {
   margin-left: 10px;
   color: #F17522 !important;
   font-family: "Paperlogy 7" !important;
   font-weight: 700 !important;
 }
-#green19_82681 .map_text .map_text_logo .map_text_logo1 span .tele_text2 {
+#green19_82681 .map_text .map_text_logo .map_text_logo1 .tele_text2 {
   color: #F17522 !important;
   font-family: "Paperlogy 7" !important;
   font-weight: 700 !important;
 }
 #green19_82681 .map_text .map_text_logo .map_text_logo2 {
-  font-family: "Paperlogy 7";
-  font-weight: 700;
   margin-left: 12px;
 }
 #green19_82681 .map_text .map_text_logo .map_text_logo2 img {
   margin-bottom: -19px;
+}
+#green19_82681 .map_text .map_text_logo .map_text_logo2 .tele_text1,
+#green19_82681 .map_text .map_text_logo .map_text_logo2 .tele_text2 {
+  color: #F17522;
+  font-family: "Paperlogy 7";
+  font-weight: 700;
 }
 
 #gNavi.gNavi > ul > li#gNaviNum0:hover {
