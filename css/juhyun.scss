@@ -936,19 +936,19 @@ margin: -260px auto 0 -105px !important;
           
             
             .map_text_logo1{
-                font-family: "Paperlogy 7";
-                font-weight: 700;
+                font-family: "Paperlogy 7" !important;
+                font-weight: 700 !important;
                 
                 border-right: 2px solid #ccc;
                 img{
                     margin-left: 12px;
                     margin-bottom: -7px;
                 }
-                .tele_text1 {
+                span .tele_text1 {
                     margin-left: 10px;
                     color: #F17522 !important;
                 }
-                .tele_text2 {
+                span .tele_text2 {
                     color: #F17522 !important;
                 }
 
