@@ -467,6 +467,7 @@ margin: -260px auto 0 -105px !important;
             }
             .swiper-button-next{
                 right: 220px !important;
+                top: 65% !important;
                 color: var(--Main, #F17522);
             }
 
@@ -890,7 +891,7 @@ margin: -260px auto 0 -105px !important;
     }
   }
   
-
+  
 
 //지도//
 #green19_82681{
@@ -936,8 +937,7 @@ margin: -260px auto 0 -105px !important;
           
             
             .map_text_logo1{
-                font-family: "Paperlogy 7" !important;
-                font-weight: 700 !important;
+                
                 
                 border-right: 2px solid #ccc;
                 img{
@@ -947,9 +947,13 @@ margin: -260px auto 0 -105px !important;
                 span .tele_text1 {
                     margin-left: 10px;
                     color: #F17522 !important;
+                    font-family: "Paperlogy 7" !important;
+                font-weight: 700 !important;
                 }
                 span .tele_text2 {
                     color: #F17522 !important;
+                    font-family: "Paperlogy 7" !important;
+                font-weight: 700 !important;
                 }
 
             }
