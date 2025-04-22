@@ -452,20 +452,20 @@ margin: -260px auto 0 -105px !important;
         align-items: center;
 
         .swiper-container {
-            &.swiper-slide-prev{
+            .swiper-slide-prev{
                 padding-right: 80px;
 
             }
-            &.swiper-slide-next{
+            .swiper-slide-next{
                 padding-left: 80px;
 
             }
-            &.swiper-button-prev{
+            .swiper-button-prev{
                 left: 135px !important;
                 top: 65% !important;
                 color: var(--Main, #F17522);
             }
-            &.swiper-button-next{
+            .swiper-button-next{
                 right: 220px !important;
                 color: var(--Main, #F17522);
             }

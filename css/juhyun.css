@@ -395,18 +395,18 @@ body, #headerwarp {
   justify-content: center;
   align-items: center;
 }
-#green19_78758 .centerSwiper .swiper-container.swiper-slide-prev {
+#green19_78758 .centerSwiper .swiper-container .swiper-slide-prev {
   padding-right: 80px;
 }
-#green19_78758 .centerSwiper .swiper-container.swiper-slide-next {
+#green19_78758 .centerSwiper .swiper-container .swiper-slide-next {
   padding-left: 80px;
 }
-#green19_78758 .centerSwiper .swiper-container.swiper-button-prev {
+#green19_78758 .centerSwiper .swiper-container .swiper-button-prev {
   left: 135px !important;
   top: 65% !important;
   color: var(--Main, #F17522);
 }
-#green19_78758 .centerSwiper .swiper-container.swiper-button-next {
+#green19_78758 .centerSwiper .swiper-container .swiper-button-next {
   right: 220px !important;
   color: var(--Main, #F17522);
 }
