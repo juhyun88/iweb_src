@@ -24,9 +24,6 @@ body, #headerwarp {
 #blockWrap #green19_82661 {
   margin: -20px !important;
 }
-#blockWrap #green19_82661 + div {
-  display: none !important;
-}
 #blockWrap #green19_81348 {
   margin-top: -20px !important;
 }
