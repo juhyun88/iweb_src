@@ -459,7 +459,23 @@ margin: -260px auto 0 -105px !important;
         align-items: center;
 
         .swiper-container {
-            
+            &.swiper-slide-prev{
+                padding-right: 80px;
+
+            }
+            &.swiper-slide-next{
+                padding-left: 80px;
+
+            }
+            &.swiper-button-prev{
+                left: 135px !important;
+                top: 65% !important;
+                color: var(--Main, #F17522);
+            }
+            &.swiper-button-next{
+                right: 220px !important;
+                color: var(--Main, #F17522);
+            }
 
             .swiper-slide {   
                
@@ -472,23 +488,7 @@ margin: -260px auto 0 -105px !important;
                 flex-wrap: nowrap; 
                 background-color: white;
 
-                &.swiper-slide-prev{
-                    padding-right: 80px;
-
-                }
-                &.swiper-slide-next{
-                    padding-left: 80px;
-
-                }
-                &.swiper-button-prev{
-                    left: 45px !important;
-                    top: 64% !important;
-                    color: var(--Main, #F17522);
-                }
-                &.swiper-button-next{
-                    right: 120px !important;
-                    color: var(--Main, #F17522);
-                }
+                
                 
 
                 &.content {              
