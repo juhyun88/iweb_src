@@ -838,13 +838,14 @@ body, #headerwarp {
   justify-content: center;
   align-items: center;
   gap: 28px;
+  margin-top: 41px;
 }
 #green19_82681 .websitego a {
-  width: 200px;
-  height: 50px;
+  width: 360px;
+  height: 58px;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 20px;
   text-decoration: none;
   background-color: white;
   border: 2px solid skyblue;
@@ -852,6 +853,8 @@ body, #headerwarp {
   color: #333;
   font-weight: bold;
   justify-content: center;
+  font-family: "Paperlogy 5";
+  font-weight: 500;
 }
 
 #gNavi.gNavi > ul > li#gNaviNum0:hover {
