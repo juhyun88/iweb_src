@@ -923,7 +923,7 @@ margin: -260px auto 0 -105px !important;
       gap: 40px;
   
       span {
-        color: #000000;
+        color: #3F3F3F;
         font-family: "Paperlogy 4" !important;
         font-style: normal;
         line-height: normal;
@@ -984,10 +984,11 @@ margin: -260px auto 0 -105px !important;
      //푸터 웹사이트 이동//
      .websitego{
       display: flex;
-      justify-content: center;
+      justify-content: end;
       align-items: center;
       gap: 28px;
       margin-top: 41px;
+      margin-right: 100px;
       a{
         width: 360px;
         height: 58px;
@@ -996,13 +997,14 @@ margin: -260px auto 0 -105px !important;
         gap:20px;
         text-decoration:none;
         background-color: white;
-        border:2px solid skyblue;
+        border:2px solid #DBEBF6;
         border-radius:50px;
-        color: #333;
+        color: #3F3F3F;
         font-weight: bold;
         justify-content: center;
         font-family: "Paperlogy 5";
         font-weight: 500;
+        font-size: 21px;
       }
      }
   }

@@ -786,7 +786,7 @@ body, #headerwarp {
   gap: 40px;
 }
 #green19_82681 .map_text span {
-  color: #000000;
+  color: #3F3F3F;
   font-family: "Paperlogy 4" !important;
   font-style: normal;
   line-height: normal;
@@ -835,10 +835,11 @@ body, #headerwarp {
 }
 #green19_82681 .websitego {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   gap: 28px;
   margin-top: 41px;
+  margin-right: 100px;
 }
 #green19_82681 .websitego a {
   width: 360px;
@@ -848,13 +849,14 @@ body, #headerwarp {
   gap: 20px;
   text-decoration: none;
   background-color: white;
-  border: 2px solid skyblue;
+  border: 2px solid #DBEBF6;
   border-radius: 50px;
-  color: #333;
+  color: #3F3F3F;
   font-weight: bold;
   justify-content: center;
   font-family: "Paperlogy 5";
   font-weight: 500;
+  font-size: 21px;
 }
 
 #gNavi.gNavi > ul > li#gNaviNum0:hover {
