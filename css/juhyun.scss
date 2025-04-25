@@ -981,6 +981,27 @@ margin: -260px auto 0 -105px !important;
         }
       }
     }
+     //푸터 웹사이트 이동//
+     .websitego{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 28px;
+      a{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        gap:5px;
+        text-decoration:none;
+        background-color: white;
+        border:2px solid skyblue;
+        border-radius:50px;
+        color: #333;
+        font-weight: bold;
+        justify-content: center;
+      }
+     }
   }
   
 
@@ -1058,3 +1079,5 @@ margin: -260px auto 0 -105px !important;
   #gNavi.gNavi > ul > li > a{
     padding-right: 0px !important;
   }
+
+ 
